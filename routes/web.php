@@ -37,3 +37,10 @@ Route::get('/modul', function () {
 Route::get('/produk-lain', function () {
     return view('content.produk-lain');
 })->name('produk-lain');
+
+Route::prefix('produk-lain')->group(function () {
+    Route::get('/aplikasi-hrd', function () {
+        return view('content.produk-lain.aplikasi-hrd');
+    })->name('aplikasi-hrd');
+});
+
