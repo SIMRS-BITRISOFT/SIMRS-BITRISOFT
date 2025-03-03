@@ -23,60 +23,69 @@
         </div>
     </section>
 
-    {{--Modul--}}
-    @include('content.modul')
-
-    <section id="about-us" class="padding-large">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter-info text-center">
-                        <div
-                            class="counter-number text-primary-500 display-2 fw-semibold d-flex align-items-center justify-content-center">
-                            <span class="counter-prefix">+</span>
-                            <h5 class="timer display-4 fw-bold m-0" data-to="5120" data-speed="8000">5120</h5>
+    {{--About--}}
+    <section id="tentang-kami" class="overflow-hidden" style="font-size: larger">
+        <div class="container-md mt-5 pb-5">
+            <div >
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="tab-content" id="tabContent">
+                            <div class="tab-pane fade show active" id="laboratory" role="tabpanel"
+                                 aria-labelledby="laboratory-tab" tabindex="0">
+                                <h2 class="fw-bold pb-3 text-dark">Tentang Kami</h2>
+                                <p>medical record adalah berkas yang memuat catatan dan dokumen tentang pasien.
+                                    Ini mencakup identitas, pemeriksaan, pengobatan, tindakan medis lain di sarana
+                                    pelayanan kesehatan untuk rawat jalan dan rawat inap baik dikelola pemerintah maupun
+                                    swasta. </p>
+                            </div>
                         </div>
-                        <p class="counter-description">Happy Patients</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/images/team-item.jpg" alt="Medical Record" style="width: 70%"
+                             class="img-fluid rounded-custom">
                     </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter-info text-center">
-                        <div
-                            class="counter-number text-primary-500 display-2 fw-semibold d-flex align-items-center justify-content-center">
-                            <span class="counter-prefix">+</span>
-                            <h5 class="timer display-4 fw-bold m-0" data-to="5120" data-speed="8000">26</h5>
+        <div class="container-md mt-5">
+            <div >
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/images/team-item.jpg" alt="Medical Record" style="width: 70%"
+                             class="img-fluid rounded-custom">
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="tab-content" id="tabContent">
+                            <div class="tab-pane fade show active" id="laboratory" role="tabpanel"
+                                 aria-labelledby="laboratory-tab" tabindex="0">
+                                <h2 class="fw-bold pb-2 text-dark">Visi</h2>
+                                <p>medical record adalah berkas yang memuat catatan dan dokumen tentang pasien.
+                                    Ini mencakup identitas, pemeriksaan, pengobatan, tindakan medis lain di sarana
+                                    pelayanan kesehatan untuk rawat jalan dan rawat inap baik dikelola pemerintah maupun
+                                    swasta. </p>
+                            </div>
+                            <br>
+                            <div class="tab-pane fade show active" id="laboratory" role="tabpanel"
+                                 aria-labelledby="laboratory-tab" tabindex="0">
+                                <h2 class="fw-bold pb-2 text-dark">Misi</h2>
+                                <p>medical record adalah berkas yang memuat catatan dan dokumen tentang pasien.
+                                    Ini mencakup identitas, pemeriksaan, pengobatan, tindakan medis lain di sarana
+                                    pelayanan kesehatan untuk rawat jalan dan rawat inap baik dikelola pemerintah maupun
+                                    swasta. </p>
+                            </div>
                         </div>
-                        <p class="counter-description">Total Branches</p>
                     </div>
                 </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter-info text-center">
-                        <div
-                            class="counter-number text-primary-500 display-2 fw-semibold d-flex align-items-center justify-content-center">
-                            <span class="counter-prefix">+</span>
-                            <h5 class="timer display-4 fw-bold m-0" data-to="5120" data-speed="8000">53</h5>
-                        </div>
-                        <p class="counter-description">Senior Doctors</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter-info text-center">
-                        <div
-                            class="counter-number text-primary-500 display-2 fw-semibold d-flex align-items-center justify-content-center">
-                            <span class="counter-prefix">+</span>
-                            <h5 class="timer display-4 fw-bold m-0" data-to="5120" data-speed="8000">10</h5>
-                        </div>
-                        <p class="counter-description">Years Experience</p>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
+
+
+    {{--Modul--}}
+    @include('content.modul')
+
+
 
     <section id="our-services"
              style="background-image: url(images/services-bg.jpg); background-repeat: no-repeat; background-position: center; background-position: top;">

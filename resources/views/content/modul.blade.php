@@ -1,5 +1,5 @@
 <section id="modul" class="overflow-hidden" style="font-size: large">
-    <div class="container-md mt-4">
+    <div class="container-md mt-5">
         <h1>Modul</h1>
         <p>Modul SIMRS BITRISOFT : Medical Record, Rawat Jalan, Rawat Inap, Laboratorium, Radiologi, Farmasi,
             Keuangan, Kasir, Manajemen , Gizi, Coding, Laporan</p>
