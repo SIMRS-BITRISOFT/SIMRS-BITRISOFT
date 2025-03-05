@@ -125,6 +125,11 @@
             direction: rtl;
             scrollbar-width: thin;
         }
+
+        .rounded-custom {
+            border-radius: 30px;
+        }
+
     </style>
     <!-- script
       ================================================== -->
@@ -233,6 +238,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang-kami">TENTANG KAMI</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#modul">MODUL</a>
                     </li>
