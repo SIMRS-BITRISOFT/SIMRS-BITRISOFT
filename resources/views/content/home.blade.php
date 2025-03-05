@@ -17,640 +17,490 @@
                     <h1 class="display-3 fw-bold text-dark">We Care About Your Health</h1>
                     <p class="mt-3 mb-4">Vitae aliquam vestibulum elit adipiscing massa diam in dignissim. Risus tellus libero
                         elementum aliquam etiam. Lectus adipiscing est auctor mi quisque nunc non viverra est.</p>
-                    <a href="contact.html" class="btn btn-medium btn-primary btn-pill text-uppercase">Contact us</a>
+                    <a href="#contact" class="btn btn-medium btn-primary btn-pill text-uppercase">Contact us</a>
                 </div>
             </div>
         </div>
     </section>
 
     {{--Modul--}}
-    @include('content.modul')
-
-    <section id="about-us" class="padding-large">
-        <div class="container">
+    <section id="modul" class="overflow-hidden py-5" style="font-size: large">
+        <div class="container-md mt-4">
+            <h1>Modul</h1>
+            <p>Modul SIMRS BITRISOFT : Medical Record, Rawat Jalan, Rawat Inap, Laboratorium, Radiologi, Farmasi,
+                Keuangan, Kasir, Manajemen , Gizi, Coding, Laporan</p>
             <div class="row">
-
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter-info text-center">
-                        <div
-                            class="counter-number text-primary-500 display-2 fw-semibold d-flex align-items-center justify-content-center">
-                            <span class="counter-prefix">+</span>
-                            <h5 class="timer display-4 fw-bold m-0" data-to="5120" data-speed="8000">5120</h5>
+                <div class="medical-department-tab bg-primary-200 d-flex align-items-start padding-large ps-5 border-radius-20">
+                    <div class="nav nav-tabs border-0 col-lg-4 col-md-4 ps-4" id="medical-tab" role="tablist"
+                         aria-orientation="vertical">
+                        <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4 active"
+                                id="medical-tab" data-bs-toggle="tab" data-bs-target="#medical" type="button" role="tab"
+                                aria-controls="medical" aria-selected="true">Medical Recordy</button>
+                        <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4" id="rawat-tab"
+                                data-bs-toggle="tab" data-bs-target="#rawat-jalan" type="button" role="tab" aria-controls="rawat-jalan"
+                                aria-selected="false">Rawat Jalan</button>
+                        <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4" id="rawat-inap-tab"
+                                data-bs-toggle="tab" data-bs-target="#rawat-inap" type="button" role="tab" aria-controls="gynecology"
+                                aria-selected="false">Rawat Inap</button>
+                        <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4" id="laboratorium-tab"
+                                data-bs-toggle="tab" data-bs-target="#laboratorium" type="button" role="tab" aria-controls="pathology"
+                                aria-selected="false">Laboratorium</button>
+                        <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4" id="radiologi-tab"
+                                data-bs-toggle="tab" data-bs-target="#radiologi" type="button" role="tab" aria-controls="pediatrics"
+                                aria-selected="false">Radiologi</button>
+                        <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent" id="farmasi-tab"
+                                data-bs-toggle="tab" data-bs-target="#farmasi" type="button" role="tab" aria-controls="neurology"
+                                aria-selected="false">Farmasi</button>
+                        <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4 active"
+                                id="keuangan-tab" data-bs-toggle="tab" data-bs-target="#keuangan" type="button" role="tab"
+                                aria-controls="laboratory" aria-selected="true">Keuangan</button>
+                        <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4" id="kasir-tab"
+                                data-bs-toggle="tab" data-bs-target="#kasir" type="button" role="tab" aria-controls="cardiology"
+                                aria-selected="false">Kasir</button>
+                        <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4" id="manajemen-tab"
+                                data-bs-toggle="tab" data-bs-target="#manajemen" type="button" role="tab" aria-controls="gynecology"
+                                aria-selected="false">Manajemen</button>
+                        <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4" id="gizi-tab"
+                                data-bs-toggle="tab" data-bs-target="#gizi" type="button" role="tab" aria-controls="pathology"
+                                aria-selected="false">Gizi</button>
+                        <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent pb-4" id="coding-tab"
+                                data-bs-toggle="tab" data-bs-target="#coding" type="button" role="tab" aria-controls="pediatrics"
+                                aria-selected="false">Coding</button>
+                        <button class="nav-link text-uppercase text-cadet-blue border-0 bg-transparent" id="laporan-tab"
+                                data-bs-toggle="tab" data-bs-target="#laporan" type="button" role="tab" aria-controls="neurology"
+                                aria-selected="false">Laporan</button>
+                    </div>
+                    <div class="tab-content col-lg-8 col-md-8" id="tabContent">
+                        <div class="tab-pane fade show active position-relative" id="medical" role="tabpanel"
+                             aria-labelledby="medical-tab" tabindex="0">
+                            <h2 class="display-5 fw-bold pb-3 text-dark">Medical Recordy</h2>
+                            <p>Laboratory analysis means a test performed by a labo- ratory on body fluid, tissue, or excretion for
+                                the purpose of determining the presence, absence, or concentration of various substances in the human
+                                body.</p>
+                            <p>Sampling is the process of collecting a portion of an environmental medium as representative of the
+                                locally remaining medium. The collected portion of the medium is then analyzed to determine the
+                                radionuclide concentration.</p>
+                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
+                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
+                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
                         </div>
-                        <p class="counter-description">Happy Patients</p>
+                        <div class="tab-pane fade position-relative" id="rawat-jalan" role="tabpanel"
+                             aria-labelledby="rawat-jalan-tab" tabindex="0">
+                            <h2 class="display-5 fw-bold pb-3 text-dark">Rawat Jalan</h2>
+                            <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                                tincidunt ut vitae elit risus.</p>
+                            <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                                Vel non viverra ligula odio ornare turpis mauris.</p>
+                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
+                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
+                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                        </div>
+                        <div class="tab-pane fade position-relative" id="rawat-inap" role="tabpanel"
+                             aria-labelledby="rawat-inap-tab" tabindex="0">
+                            <h2 class="display-5 fw-bold pb-3 text-dark">Rawat Inap</h2>
+                            <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                                tincidunt ut vitae elit risus.</p>
+                            <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                                Vel non viverra ligula odio ornare turpis mauris.</p>
+                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
+                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
+                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                        </div>
+                        <div class="tab-pane fade position-relative" id="laboratorium" role="tabpanel" aria-labelledby="laboratorium-tab"
+                             tabindex="0">
+                            <h2 class="display-5 fw-bold pb-3 text-dark">Laboratorium</h2>
+                            <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                                tincidunt ut vitae elit risus.</p>
+                            <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                                Vel non viverra ligula odio ornare turpis mauris.</p>
+                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
+                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
+                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                        </div>
+                        <div class="tab-pane fade position-relative" id="radiologi" role="tabpanel"
+                             aria-labelledby="radiologi-tab" tabindex="0">
+                            <h2 class="display-5 fw-bold pb-3 text-dark">Radiologi</h2>
+                            <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                                tincidunt ut vitae elit risus.</p>
+                            <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                                Vel non viverra ligula odio ornare turpis mauris.</p>
+                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
+                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
+                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                        </div>
+                        <div class="tab-pane fade position-relative" id="farmasi" role="tabpanel" aria-labelledby="farmasi-tab"
+                             tabindex="0">
+                            <h2 class="display-5 fw-bold pb-3 text-dark">Farmasi</h2>
+                            <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                                tincidunt ut vitae elit risus.</p>
+                            <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                                Vel non viverra ligula odio ornare turpis mauris.</p>
+                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
+                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
+                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                        </div>
+                        <div class="tab-pane fade position-relative" id="keuangan" role="tabpanel" aria-labelledby="keuangan-tab"
+                             tabindex="0">
+                            <h2 class="display-5 fw-bold pb-3 text-dark">Keuangan</h2>
+                            <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                                tincidunt ut vitae elit risus.</p>
+                            <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                                Vel non viverra ligula odio ornare turpis mauris.</p>
+                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
+                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
+                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                        </div>
+                        <div class="tab-pane fade position-relative" id="kasir" role="tabpanel" aria-labelledby="kasir-tab"
+                             tabindex="0">
+                            <h2 class="display-5 fw-bold pb-3 text-dark">Kasir</h2>
+                            <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                                tincidunt ut vitae elit risus.</p>
+                            <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                                Vel non viverra ligula odio ornare turpis mauris.</p>
+                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
+                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
+                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                        </div>
+                        <div class="tab-pane fade position-relative" id="manajemen" role="tabpanel" aria-labelledby="manajemen-tab"
+                             tabindex="0">
+                            <h2 class="display-5 fw-bold pb-3 text-dark">Manajemen</h2>
+                            <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                                tincidunt ut vitae elit risus.</p>
+                            <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                                Vel non viverra ligula odio ornare turpis mauris.</p>
+                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
+                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
+                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                        </div>
+                        <div class="tab-pane fade position-relative" id="gizi" role="tabpanel" aria-labelledby="gizi-tab"
+                             tabindex="0">
+                            <h2 class="display-5 fw-bold pb-3 text-dark">Gizi</h2>
+                            <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                                tincidunt ut vitae elit risus.</p>
+                            <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                                Vel non viverra ligula odio ornare turpis mauris.</p>
+                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
+                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
+                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                        </div>
+                        <div class="tab-pane fade position-relative" id="coding" role="tabpanel" aria-labelledby="coding-tab"
+                             tabindex="0">
+                            <h2 class="display-5 fw-bold pb-3 text-dark">Coding</h2>
+                            <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                                tincidunt ut vitae elit risus.</p>
+                            <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                                Vel non viverra ligula odio ornare turpis mauris.</p>
+                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
+                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
+                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                        </div>
+                        <div class="tab-pane fade position-relative" id="laporan" role="tabpanel" aria-labelledby="laporan-tab"
+                             tabindex="0">
+                            <h2 class="display-5 fw-bold pb-3 text-dark">Laporan</h2>
+                            <p>Vel non viverra ligula odio ornare turpis mauris. Odio aliquam, tincidunt ut vitae elit risus. Tempor
+                                egestas condimentum et ac rutrum dui, odio.Vel non viverra ligula odio ornare turpis mauris. Aliquam,
+                                tincidunt ut vitae elit risus.</p>
+                            <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
+                                Vel non viverra ligula odio ornare turpis mauris.</p>
+                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
+                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
+                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                        </div>
+
                     </div>
                 </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter-info text-center">
-                        <div
-                            class="counter-number text-primary-500 display-2 fw-semibold d-flex align-items-center justify-content-center">
-                            <span class="counter-prefix">+</span>
-                            <h5 class="timer display-4 fw-bold m-0" data-to="5120" data-speed="8000">26</h5>
-                        </div>
-                        <p class="counter-description">Total Branches</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter-info text-center">
-                        <div
-                            class="counter-number text-primary-500 display-2 fw-semibold d-flex align-items-center justify-content-center">
-                            <span class="counter-prefix">+</span>
-                            <h5 class="timer display-4 fw-bold m-0" data-to="5120" data-speed="8000">53</h5>
-                        </div>
-                        <p class="counter-description">Senior Doctors</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="counter-info text-center">
-                        <div
-                            class="counter-number text-primary-500 display-2 fw-semibold d-flex align-items-center justify-content-center">
-                            <span class="counter-prefix">+</span>
-                            <h5 class="timer display-4 fw-bold m-0" data-to="5120" data-speed="8000">10</h5>
-                        </div>
-                        <p class="counter-description">Years Experience</p>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
 
-    <section id="our-services"
-             style="background-image: url(images/services-bg.jpg); background-repeat: no-repeat; background-position: center; background-position: top;">
+
+    {{-- Fitur Unggulan --}}
+    <section id="unggulan" class="py-5 overflow-hidden">
         <div class="container">
-            <div class="row">
-
-                <div class="display-header text-light d-flex flex-wrap justify-content-between padding-medium">
-                    <div class="col-lg-5 col-md-6 col-sm-12">
-                        <h2 class="text-light">Our Best Services For Your Solution</h2>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <p class="text-light">Vitae aliquam vestibulum elit adipiscing massa diam in dignissim. Risus tellus libero
-                            elementum aliquam etiam. Lectus adipiscing est auctor mi quisque nunc non viverra est.</p>
-                    </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="section-heading fw-bold text-primary">FITUR UNGGULAN</h2>
+                    <p class="text-muted pb-3">Menyediakan layanan digital terdepan untuk kenyamanan pasien dan efisiensi pelayanan</p>
                 </div>
-
-                <div class="col-lg-3 col-md-6 pb-3">
-                    <div class="icon-box p-4 bg-light border-radius-10 text-center">
-                        <div class="icon-box-icon">
-                            <svg class="home-thermometer mt-3 primary-color-500" width="50" height="50">
-                                <use xlink:href="#home-thermometer" />
-                            </svg>
+            </div>
+            <div class="row g-4">
+                <!-- V-CLAIM -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card shadow rounded-3">
+                        <div class="card-img-top text-white" style="background-color: #1cbccf">
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="banner" class="img-fluid" style="height: 200px; width: 100%;">
                         </div>
-                        <div class="icon-box-content">
-                            <h3 class="card-title py-2">General Practitioners</h3>
-                            <p>Aliquam etiam lectus adipiscing est auctor mi quisque non viverra.</p>
+                        <div class="card-icon bg-white text-primary shadow">
+                            <i class="bi bi-file-earmark-check"></i>
+                        </div>
+                        <div class="card-body text-center p-4">
+                            <h4 class="card-title fw-bold">V-CLAIM</h4>
+                            <p class="card-text text-muted mb-4">Verifikasi dan klaim pasien BPJS secara digital untuk mempercepat proses administrasi dan pelayanan.</p>
+                            <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">Pelajari Lebih Lanjut</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 pb-3">
-                    <div class="icon-box p-4 bg-light border-radius-10 text-center">
-                        <div class="icon-box-icon">
-                            <svg class="pregnant-woman mt-3 primary-color-500" width="50" height="50">
-                                <use xlink:href="#pregnant-woman" />
-                            </svg>
+                <!-- M-JKN -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card shadow rounded-3">
+                        <div class="card-img-top text-white" style="background-color: #1cbccf">
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="banner" class="img-fluid" style="height: 200px; width: 100%;">
                         </div>
-                        <div class="icon-box-content">
-                            <h3 class="card-title py-2">Pregnancy Support</h3>
-                            <p>Aliquam etiam lectus adipiscing est auctor mi quisque non viverra.</p>
+                        <div class="card-icon bg-white text-primary shadow">
+                            <i class="bi bi-phone"></i>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 pb-3">
-                    <div class="icon-box p-4 bg-light border-radius-10 text-center">
-                        <div class="icon-box-icon">
-                            <svg class="nutrition mt-3 primary-color-500" width="50" height="50">
-                                <use xlink:href="#nutrition" />
-                            </svg>
-                        </div>
-                        <div class="icon-box-content">
-                            <h3 class="card-title py-2">Nutritional Support</h3>
-                            <p>Aliquam etiam lectus adipiscing est auctor mi quisque non viverra.</p>
+                        <div class="card-body text-center p-4">
+                            <h4 class="card-title fw-bold">M-JKN</h4>
+                            <p class="card-text text-muted mb-4">Akses layanan JKN melalui aplikasi mobile untuk kemudahan pasien.</p>
+                            <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">Pelajari Lebih Lanjut</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 pb-3">
-                    <div class="icon-box p-4 bg-light border-radius-10 text-center">
-                        <div class="icon-box-icon">
-                            <svg class="local-pharmacy mt-3 primary-color-500" width="50" height="50">
-                                <use xlink:href="#local-pharmacy" />
-                            </svg>
+                <!-- APLICARES -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card shadow rounded-3">
+                        <div class="card-img-top text-white" style="background-color: #1cbccf">
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="banner" class="img-fluid" style="height: 200px; width: 100%;">
                         </div>
-                        <div class="icon-box-content">
-                            <h3 class="card-title py-2">Pharmaceutical care</h3>
-                            <p>Aliquam etiam lectus adipiscing est auctor mi quisque non viverra.</p>
+                        <div class="card-icon bg-white text-primary shadow">
+                            <i class="bi bi-calendar-check"></i>
+                        </div>
+                        <div class="card-body text-center p-4">
+                            <h4 class="card-title fw-bold">APLICARES</h4>
+                            <p class="card-text text-muted mb-4">Sistem reservasi online untuk memudahkan pasien membuat janji temu.</p>
+                            <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">Pelajari Lebih Lanjut</a>
                         </div>
                     </div>
                 </div>
 
+                <div class="col-md-6 col-lg-4 offset-lg-2">
+                    <div class="card feature-card shadow rounded-3">
+                        <div class="card-img-top text-white" style="background-color: #1cbccf">
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="banner" class="img-fluid" style="height: 200px; width: 100%;">
+                        </div>
+                        <div class="card-icon bg-white text-primary shadow">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                        <div class="card-body text-center p-4">
+                            <h4 class="card-title fw-bold">I-CARE</h4>
+                            <p class="card-text text-muted mb-4">Layanan informasi dan bantuan pasien secara real-time.</p>
+                            <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Rekam Medis Elektronik (RME) -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card shadow rounded-3">
+                        <div class="card-img-top text-white" style="background-color: #1cbccf">
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="banner" class="img-fluid" style="height: 200px; width: 100%;">
+                        </div>
+                        <div class="card-icon bg-white text-primary shadow">
+                            <i class="bi bi-file-earmark-medical"></i>
+                        </div>
+                        <div class="card-body text-center p-4">
+                            <h4 class="card-title fw-bold">Rekam Medis Elektronik (RME)</h4>
+                            <p class="card-text text-muted mb-4">Sistem rekam medis digital untuk mengelola data pasien secara terintegrasi.</p>
+                            <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="book-appointment" class="padding-large mb-0">
+    {{-- Fitur Lainnya --}}
+    <section id="umum" class="py-5 overflow-hidden">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="section-heading fw-bold text-primary">FITUR LAINNYA</h2>
+                    <p class="text-muted pb-3">Berbagai fitur pendukung untuk meningkatkan efisiensi dan kualitas layanan</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 offset-lg-2">
+                    <div class="card feature-card shadow rounded-3">
+                        <div class="card-img-top text-white" style="background-color: #1cbccf">
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="banner" class="img-fluid" style="height: 200px; width: 100%;">
+                        </div>
+                        <div class="card-icon bg-white text-primary shadow">
+                            <i class="bi bi-capsule"></i>
+                        </div>
+                        <div class="card-body text-center p-4">
+                            <h4 class="card-title fw-bold">Pencatatan Stok Alkes (Farmasi)</h4>
+                            <p class="card-text text-muted mb-4">Sistem pencatatan stok alat kesehatan yang terintegrasi dengan farmasi.</p>
+                            <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalumum">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card shadow rounded-3">
+                        <div class="card-img-top text-white" style="background-color: #1cbccf">
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="banner" class="img-fluid" style="height: 200px; width: 100%;">
+                        </div>
+                        <div class="card-icon bg-white text-primary shadow">
+                            <i class="bi bi-calendar-event"></i>
+                        </div>
+                        <div class="card-body text-center p-4">
+                            <h4 class="card-title fw-bold">Jadwal Praktek Dokter</h4>
+                            <p class="card-text text-muted mb-4">Informasi jadwal praktek dokter untuk memudahkan pasien.</p>
+                            <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalumum">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 offset-lg-2">
+                    <div class="card feature-card shadow rounded-3">
+                        <div class="card-img-top text-white" style="background-color: #1cbccf">
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="banner" class="img-fluid" style="height: 200px; width: 100%;">
+                        </div>
+                        <div class="card-icon bg-white text-primary shadow">
+                            <i class="bi bi-megaphone"></i>
+                        </div>
+                        <div class="card-body text-center p-4">
+                            <h4 class="card-title fw-bold">Antrian (Display & Pemanggilan)</h4>
+                            <p class="card-text text-muted mb-4">Sistem antrian digital dengan display dan pemanggilan pasien.</p>
+                            <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalumum">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card shadow rounded-3">
+                        <div class="card-img-top text-white" style="background-color: #1cbccf">
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="banner" class="img-fluid" style="height: 200px; width: 100%;">
+                        </div>
+                        <div class="card-icon bg-white text-primary shadow">
+                            <i class="bi bi-house-door"></i>
+                        </div>
+                        <div class="card-body text-center p-4">
+                            <h4 class="card-title fw-bold">Dashboard Kamar</h4>
+                            <p class="card-text text-muted mb-4">Monitoring ketersediaan kamar rawat inap secara real-time.</p>
+                            <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalumum">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="padding-large mb-0">
         <div class="container">
             <div class="row">
-                <div class="display-header">
-                    <h2 class="display-5 fw-bold text-dark">Book Appointment or call: <span class="text-primary-500">(+487) 384
-              9452</span></h2>
+                <div class="display-header text-center mb-5">
+                    <h2 class="display-5 fw-bold text-dark">Hubungi: <span class="text-primary-500">(+62) No SIMRS</span></h2>
+                    <p class="text-muted mt-3">Isi formulir di bawah ini untuk menjadwalkan janji temu dengan dokter Anda.</p>
                 </div>
-                <form class="contact-form d-flex flex-wrap mt-5 gx-1">
+                <form class="contact-form d-flex flex-wrap gx-3">
+                    <!-- Pilih Poli/Klinik -->
                     <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
-                        <select class="form-select focus-transparent border border-radius-10 ps-4" aria-invalid="false"
-                                name="choose">
-                            <option value="Select Your Department">Select Department </option>
-                            <option value="Department">Department of Physiotherapy</option>
-                            <option value="Department">Department of Dentistry</option>
-                            <option value="Department">ENT Department</option>
-                            <option value="Department">Department of Pharmacy</option>
-                            <option value="Department">Nursing Department</option>
+                        <select class="form-select focus-transparent border border-radius-10 ps-4" aria-invalid="false" name="poli">
+                            <option value="Select Your Department">Pilih Poli/Klinik</option>
+                            <option value="Poli Umum">Poli Umum</option>
+                            <option value="Poli Gigi">Poli Gigi</option>
+                            <option value="Poli Anak">Poli Anak</option>
+                            <option value="Poli Kandungan">Poli Kandungan</option>
+                            <option value="Poli Bedah">Poli Bedah</option>
                         </select>
                     </div>
+                    <!-- Pilih Dokter -->
                     <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
-                        <select class="form-select focus-transparent border ps-4 border-radius-10" aria-invalid="false"
-                                name="choose">
-                            <option value="Select Your Doctor">Select Doctor</option>
-                            <option value="Naidan Smith">William Davies</option>
-                            <option value="Danial Frankie">Charlotte Taylor</option>
-                            <option value="Jason Roy">William Jones</option>
+                        <select class="form-select focus-transparent border ps-4 border-radius-10" aria-invalid="false" name="doctor">
+                            <option value="Select Your Doctor">Pilih Dokter</option>
+                            <option value="Dr. Ahmad Budiman">Dr. Ahmad Budiman</option>
+                            <option value="Dr. Siti Rahayu">Dr. Siti Rahayu</option>
+                            <option value="Dr. Rudi Hermawan">Dr. Rudi Hermawan</option>
                         </select>
                     </div>
+                    <!-- Nama Lengkap -->
                     <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
-                        <input type="text" name="name" placeholder="Full Name" class="border ps-4 border-radius-10">
+                        <input type="text" name="name" placeholder="Nama Lengkap" class="form-control border ps-4 border-radius-10">
                     </div>
+                    <!-- Nomor Telepon -->
                     <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
-                        <input type="text" name="name" placeholder="Phone Number" class="border ps-4 border-radius-10">
+                        <input type="text" name="phone" placeholder="Nomor Telepon" class="form-control border ps-4 border-radius-10">
                     </div>
+                    <!-- Tanggal Janji Temu -->
                     <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
                         <div class="input-group date" id="datepicker">
-                            <input type="date" id="start" name="appointment" min="2018-01-01" max="2018-12-31"
-                                   placeholder="Choose Date" class="bg-transparent ps-4 border border-radius-10 position-relative">
+                            <input type="date" name="date" class="form-control bg-transparent ps-4 border border-radius-10">
                         </div>
                     </div>
+                    <!-- Waktu Janji Temu -->
                     <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
                         <div class="input-group time" id="timepicker">
-                            <input type="time" id="start" name="appointment" min="9AM" max="6PM"
-                                   class="bg-transparent ps-4 border border-radius-10 position-relative">
+                            <input type="time" name="time" class="form-control bg-transparent ps-4 border border-radius-10">
                         </div>
+                    </div>
+                    <!-- Tombol Submit -->
+                    <div class="col-12 text-center mt-4">
+                        <button type="submit" class="btn btn-primary btn-pill text-uppercase" data-bs-toggle="modal" data-bs-target="#modalcontact">Jadwalkan Janji Temu</button>
                     </div>
                 </form>
             </div>
-            <a href="#" class="btn btn-medium btn-primary btn-pill mt-3 text-uppercase">Book an appointment</a>
         </div>
     </section>
 
-    <section id="testimonial"
-             style="background-image: url(images/review-bg.jpg); background-repeat: no-repeat; background-position: right; height: 595px;">
-        <div class="container">
-            <div class="row align-items-center padding-medium">
-                <div class="col-lg-5 col-md-4">
-                    <div class="image-holder">
-                        <img src="{{asset('assets/images/review-image.png')}}" alt="review" class="img-fluid">
-                    </div>
+    <!-- Modal Contact -->
+    <div class="modal fade" id="modalcontact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Konfirmasi Jadwal Temu</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="col-lg-7 col-md-8">
-                    <div class="review-content">
-                        <div class="swiper testimonial-swiper">
-                            <div class="swiper-wrapper position-relative">
-                                <div class="swiper-slide">
-                                    <div class="review-item">
-                                        <svg class="quote quote-up primary-color-500 position-absolute" width="80" height="70">
-                                            <use xlink:href="#quote-up" />
-                                        </svg>
-                                        <blockquote class="fs-4">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.The more content you provide about
-                                                you. Lorem, Quos saepe suscipit, nemo dolore sapiente!</p>
-                                            <div class="author-detail">
-                                                <div class="name fs-3 fw-bold text-dark">James Rodrigo</div>
-                                                <span class="text-cadet-blue text-uppercase">Customer</span>
-                                            </div>
-                                        </blockquote>
-                                        <svg class="quote quote-down primary-color-500 position-absolute" width="80" height="70">
-                                            <use xlink:href="#quote-down" />
-                                        </svg>
-                                    </div>
-                                </div><!--swiper-slide-->
-                                <div class="swiper-slide">
-                                    <div class="review-item">
-                                        <svg class="quote quote-up primary-color-500 position-absolute" width="80" height="70">
-                                            <use xlink:href="#quote-up" />
-                                        </svg>
-                                        <blockquote class="fs-4">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.The more content you provide about
-                                                you. Lorem, Quos saepe suscipit, nemo dolore sapiente!</p>
-                                            <div class="author-detail">
-                                                <div class="name fs-3 fw-bold text-dark">Jenny Rose</div>
-                                                <span class="text-cadet-blue text-uppercase">Customer</span>
-                                            </div>
-                                        </blockquote>
-                                        <svg class="quote quote-down primary-color-500 position-absolute" width="80" height="70">
-                                            <use xlink:href="#quote-down" />
-                                        </svg>
-                                    </div>
-                                </div><!--swiper-slide-->
-                                <div class="swiper-slide">
-                                    <div class="review-item">
-                                        <svg class="quote quote-up primary-color-500 position-absolute" width="80" height="70">
-                                            <use xlink:href="#quote-up" />
-                                        </svg>
-                                        <blockquote class="fs-4">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.The more content you provide about
-                                                you. Lorem, Quos saepe suscipit, nemo dolore sapiente!</p>
-                                            <div class="author-detail">
-                                                <div class="name fs-3 fw-bold text-dark">Wednesday Marigold</div>
-                                                <span class="text-cadet-blue text-uppercase">Customer</span>
-                                            </div>
-                                        </blockquote>
-                                        <svg class="quote quote-down primary-color-500 position-absolute" width="80" height="70">
-                                            <use xlink:href="#quote-down" />
-                                        </svg>
-                                    </div>
-                                </div><!--swiper-slide-->
-                            </div>
-                            <div class="swiper-pagination text-left"></div>
-                        </div>
-                    </div>
+                <div class="modal-body">
+                    <p>Selamat Anda telah berhasil menjadwalkan janji temu dengan dokter.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <button type="button" class="btn btn-primary">Lihat Jadwal</button>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section id="our-team" class="padding-large">
-        <div class="container">
-            <div class="row">
-                <div class="display-header mb-5">
-                    <h2 class="display-5 fw-bold text-dark">Our Team</h2>
+    <!-- Modal Fitur Unggulan-->
+    <div class="modal fade" id="modalunggulan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Informasi Lebih Lanjut</h1>
                 </div>
-                <div class="team-content">
-                    <div class="swiper team-swiper">
-                        <div class="swiper-wrapper pb-5">
-
-                            <div class="swiper-slide">
-                                <div class="team-member d-flex align-items-center">
-                                    <div class="col-md-6">
-                                        <div class="image-holder me-4 mb-4">
-                                            <img src="{{asset('assets/images/team-item.jpg')}}" alt="team member" class="border-radius-10 img-fluid">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="member-info">
-                                            <h3 class="fs-4 fw-bold text-dark">Dr. Leslie Taylor</h3>
-                                            <span class="text-uppercase fs-6 text-cadet-blue pb-2 d-block">Pediatrician</span>
-                                            <p>Dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum habitant fames ac
-                                                penatibus et.</p>
-                                            <ul class="social-links list-unstyled d-flex">
-                                                <li>
-                                                    <a href="#">
-                                                        <svg class="facebook text-primary-500 me-4" width="30" height="30">
-                                                            <use xlink:href="#facebook" />
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <svg class="twitter text-primary-500 me-4" width="30" height="30">
-                                                            <use xlink:href="#twitter" />
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <svg class="instagram text-primary-500 me-4" width="30" height="30">
-                                                            <use xlink:href="#instagram" />
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <svg class="youtube text-primary-500" width="30" height="30">
-                                                            <use xlink:href="#youtube" />
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="team-member d-flex align-items-center">
-                                    <div class="col-md-6">
-                                        <div class="image-holder me-4 mb-4">
-                                            <img src="images/team-item1.jpg" alt="team member" class="border-radius-10 img-fluid">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="member-info">
-                                            <h3 class="fs-4 fw-bold text-dark">Dr. Zachary Brown</h3>
-                                            <span class="text-uppercase fs-6 text-cadet-blue pb-2 d-block">Cardiologist</span>
-                                            <p>Dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum habitant fames ac
-                                                penatibus et.</p>
-                                            <ul class="social-links list-unstyled d-flex">
-                                                <li>
-                                                    <a href="#">
-                                                        <svg class="facebook text-primary-500 me-4" width="30" height="30">
-                                                            <use xlink:href="#facebook" />
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <svg class="twitter text-primary-500 me-4" width="30" height="30">
-                                                            <use xlink:href="#twitter" />
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <svg class="instagram text-primary-500 me-4" width="30" height="30">
-                                                            <use xlink:href="#instagram" />
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <svg class="youtube text-primary-500" width="30" height="30">
-                                                            <use xlink:href="#youtube" />
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="team-member d-flex align-items-center">
-                                    <div class="col-md-6">
-                                        <div class="image-holder me-4 mb-4">
-                                            <img src="images/team-item2.jpg" alt="team member" class="border-radius-10 img-fluid">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="member-info">
-                                            <h3 class="fs-4 fw-bold text-dark">Dr. Isabella Davies</h3>
-                                            <span class="text-uppercase fs-6 text-cadet-blue pb-2 d-block">Gynecologist</span>
-                                            <p>Dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum habitant fames ac
-                                                penatibus et.</p>
-                                            <ul class="social-links list-unstyled d-flex">
-                                                <li>
-                                                    <a href="#">
-                                                        <svg class="facebook text-primary-500 me-4" width="30" height="30">
-                                                            <use xlink:href="#facebook" />
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <svg class="twitter text-primary-500 me-4" width="30" height="30">
-                                                            <use xlink:href="#twitter" />
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <svg class="instagram text-primary-500 me-4" width="30" height="30">
-                                                            <use xlink:href="#instagram" />
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <svg class="youtube text-primary-500" width="30" height="30">
-                                                            <use xlink:href="#youtube" />
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
+                <div class="modal-body">
+                    <p>Fitur ini merupakan layanan digital terdepan yang disediakan untuk kenyamanan pasien dan efisiensi pelayanan.</p>
                 </div>
-                <!-- team-content -->
-            </div>
-        </div>
-    </section>
-
-    <section id="faqs" class="padding-large">
-        <div class="container">
-            <div class="row">
-                <div class="display-header mb-5">
-                    <h2 class="display-5 fw-bold text-center text-dark">We’ve Got Answers</h2>
-                </div>
-                <div class="accordion" id="accordion">
-                    <div class="accordion-item border-0 py-3">
-                        <h2 class="accordion-header">
-                            <button
-                                class="accordion-button fs-4 fw-bold text-dark bg-transparent focus-transparent text-capitalize shadow-none"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                                aria-controls="collapseOne">
-                                Why to believe with Insove medical healthcare ?
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse border-0 collapse show" data-bs-parent="#accordion">
-                            <div class="accordion-body">
-                                <p>Diam orci gravida convallis at enim risus viverra. Hac mi tristique in aliquet tincidunt nam lectus
-                                    nec. Placerat interdum auctor facilisi massa laoreet hendrerit posuere a. Tristique ultricies
-                                    consectetu at.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item border-0 py-3">
-                        <h2 class="accordion-header">
-                            <button
-                                class="accordion-button fs-4 fw-bold text-dark bg-transparent collapsed focus-transparent text-capitalize shadow-none"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                aria-controls="collapseTwo">
-                                Will we get healthcare updates after surgery ?
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
-                            <div class="accordion-body">
-                                <p>This is the second item's accordion body.It is hidden by default, until the collapse plugin adds the
-                                    appropriate classes that we use to style each element. These classes control the overall appearance,
-                                    as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
-                                    overriding our default variables.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item border-0 py-3">
-                        <h2 class="accordion-header">
-                            <button
-                                class="accordion-button fs-4 fw-bold text-dark bg-transparent collapsed focus-transparent text-capitalize shadow-none"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                aria-controls="collapseThree">
-                                What is the cost for just check-up ?
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion">
-                            <div class="accordion-body">
-                                <p>This is the third item's accordion body.It is hidden by default, until the collapse plugin adds the
-                                    appropriate classes that we use to style each element. These classes control the overall appearance,
-                                    as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
-                                    overriding our default variables.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item border-0 py-3">
-                        <h2 class="accordion-header">
-                            <button
-                                class="accordion-button fs-4 fw-bold text-dark bg-transparent collapsed focus-transparent text-capitalize shadow-none"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                                aria-controls="collapseFour">
-                                Can i cancel my appointment ?
-                            </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion">
-                            <div class="accordion-body">
-                                <p>This is the third item's accordion body.It is hidden by default, until the collapse plugin adds the
-                                    appropriate classes that we use to style each element. These classes control the overall appearance,
-                                    as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
-                                    overriding our default variables.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-
-
-    <section id="latest-blog" class="padding-large">
-        <div class="container">
-            <div class="row">
-                <div class="display-header">
-                    <h2 class="display-5 fw-bold text-dark">Our Recent Posts</h2>
+    <!-- Modal Fitur Lainnya-->
+    <div class="modal fade" id="modalumum" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Informasi Lebih Lanjut</h1>
                 </div>
-                <div class="post-grid d-flex flex-wrap mt-4">
-                    <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-                        <div class="card-item pe-3">
-                            <div class="card border-0 bg-transparent">
-                                <div class="card-image position-relative">
-                                    <img src="images/post-item1.jpg" alt="" class="post-image img-fluid border-radius-top-10">
-                                    <span
-                                        class="bg-primary-dim text-light position-absolute text-uppercase text-capitalize">Medical</span>
-                                </div>
-                            </div>
-                            <div class="card-body p-3 mt-2">
-                                <div class="meta-date">Jan 2, 2023</div>
-                                <h3 class="card-title fs-3 text-capitalize fw-semibold mt-3">
-                                    <a href="blog-single.html">10 foods to avoid for your heart health</a>
-                                </h3>
-                                <p>It’s normal to feel anxiety, worry and grief any time you’re diagnosed with a condition that’s
-                                    certainly true... <a href="blog-single.html" class="text-decoration-underline"><em>Read more</em></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-                        <div class="card-item pe-3">
-                            <div class="card border-0 bg-transparent">
-                                <div class="card-image position-relative">
-                                    <img src="images/post-item2.jpg" alt="" class="post-image img-fluid border-radius-top-10">
-                                    <span class="bg-primary-dim text-light position-absolute text-uppercase text-capitalize">Mental
-                    Health</span>
-                                </div>
-                            </div>
-                            <div class="card-body p-3 mt-2">
-                                <div class="meta-date">Jan 3, 2023</div>
-                                <h3 class="card-title fs-3 text-capitalize fw-semibold mt-3">
-                                    <a href="blog-single.html">How to be relax & calm in hard situations</a>
-                                </h3>
-                                <p>It’s normal to feel anxiety, worry and grief any time you’re diagnosed with a condition that’s
-                                    certainly true... <a href="blog-single.html" class="text-decoration-underline"><em>Read more</em></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-                        <div class="card-item pe-2">
-                            <div class="card border-0 bg-transparent">
-                                <div class="card-image position-relative">
-                                    <img src="images/post-item3.jpg" alt="" class="post-image img-fluid border-radius-top-10">
-                                    <span class="bg-primary-dim text-light position-absolute text-uppercase text-capitalize">Dental
-                    Health</span>
-                                </div>
-                            </div>
-                            <div class="card-body p-3 mt-2">
-                                <div class="meta-date">Jan 4, 2023</div>
-                                <h3 class="card-title fs-3 text-capitalize fw-semibold mt-3">
-                                    <a href="blog-single.html">Best ways to make your teeth strong</a>
-                                </h3>
-                                <p>It’s normal to feel anxiety, worry and grief any time you’re diagnosed with a condition that’s
-                                    certainly true... <a href="blog-single.html" class="text-decoration-underline"><em>Read more</em></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="modal-body">
+                    <p>Fitur ini merupakan layanan digital terdepan yang disediakan untuk kenyamanan pasien dan efisiensi pelayanan.</p>
                 </div>
-            </div>
-            <a href="blog.html" class="btn btn-medium btn-primary btn-pill text-uppercase text-center mx-auto">Read more
-                blogs</a>
-        </div>
-    </section>
-
-    <section id="brand-collection" class="padding-large pt-0 overflow-hidden">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col pb-3">
-                    <img src="images/betael.png" alt="brand" class="top-image">
-                    <img src="images/betael1.png" alt="brand" class="bottom-image">
-                </div>
-                <div class="col pb-3">
-                    <img src="images/healer.png" alt="brand" class="top-image">
-                    <img src="images/healer1.png" alt="brand" class="bottom-image">
-                </div>
-                <div class="col pb-3">
-                    <img src="images/lifetrace.png" alt="brand" class="top-image">
-                    <img src="images/lifetrace1.png" alt="brand" class="bottom-image">
-                </div>
-                <div class="col pb-3">
-                    <img src="images/medcare.png" alt="brand" class="top-image">
-                    <img src="images/medcare1.png" alt="brand" class="bottom-image">
-                </div>
-                <div class="col">
-                    <img src="images/soven.png" alt="brand" class="top-image">
-                    <img src="images/soven1.png" alt="brand" class="bottom-image">
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section id="subscribe" class="d-flex align-items-center"
-             style="background-image: url(images/subscribe-bg.jpg); background-repeat: no-repeat;background-size: cover; height: 444px;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="subscribe-content">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 col-md-12 col-sm-12">
-                            <div class="subscribe-header content-light mb-5">
-                                <span class="text-light text-uppercase">Our newsletter</span>
-                                <h3 class="display-3 fw-semibold text-light mt-3">Subscribe Us To Get More Updates</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12">
-                            <form id="form" class="d-flex flex-wrap position-relative">
-                                <input type="text" name="email" placeholder="Your Email Addresss"
-                                       class="border-radius-35 text-light ps-4 outline-transparent">
-                                <button
-                                    class="btn btn-light btn-subscribe btn-pill position-absolute fw-medium text-uppercase">Subscribe</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
 
 @endsection

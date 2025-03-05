@@ -234,22 +234,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownModul" role="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">
-                            MODUL
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownModul">
-                            <li><a class="dropdown-item" href="#">Medical Record</a></li>
-                            <li><a class="dropdown-item" href="#">Rawat Jalan</a></li>
-                            <li><a class="dropdown-item" href="#">Rawat Inap</a></li>
-                            <!-- Tambahkan modul lainnya -->
-                        </ul>
+                        <a class="nav-link" href="#modul">MODUL</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('fitur-unggulan')}}#unggulan">FITUR UNGGULAN</a>
+                        <a class="nav-link" href="#unggulan">FITUR UNGGULAN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('fitur-lainnya')}}#umum">FITUR LAINNYA</a>
+                        <a class="nav-link" href="#umum">FITUR LAINNYA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProduk" role="button"
@@ -282,9 +276,11 @@
             <div class="col-md-4">
                 <h5>Quick Links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#unggulan" class="text-white">Fitur Unggulan</a></li>
-                    <li><a href="#fitur" class="text-white">Fitur LAINNYA</a></li>
+                    <li><a href="#intro" class="text-white">Home</a></li>
+                    <li><a href="#about" class="text-white">About</a></li>
                     <li><a href="#modul" class="text-white">Modul</a></li>
+                    <li><a href="#unggulan" class="text-white">Fitur Unggulan</a></li>
+                    <li><a href="#fitur" class="text-white">Fitur Lainnya</a></li>
                     <li><a href="#produk" class="text-white">Produk Lain</a></li>
                 </ul>
             </div>
@@ -313,34 +309,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Bootstrap 5.1.3 JS Bundle with Popper -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
-
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const animateItems = document.querySelectorAll('.animate-on-scroll');
-
-        // Fungsi untuk menambahkan animasi saat elemen terlihat di viewport
-        const animateOnScroll = (entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate__animated', 'animate__fadeInUp');
-                    observer.unobserve(entry.target); // Hentikan observasi setelah animasi dimulai
-                }
-            });
-        };
-
-        // Buat Intersection Observer
-        const observer = new IntersectionObserver(animateOnScroll, {
-            threshold: 0.1 // Trigger animasi saat 10% elemen terlihat
-        });
-
-        // Observasi setiap elemen dengan kelas animate-on-scroll
-        animateItems.forEach(item => {
-            observer.observe(item);
-        });
-    });
-</script>
-
 
 </body>
 
