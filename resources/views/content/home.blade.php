@@ -22,63 +22,51 @@
             </div>
         </div>
     </section>
+
     {{--About--}}
-    <section id="tentang-kami" class="overflow-hidden" style="font-size: larger">
+    <section id="tentang-kami" class="overflow-hidden py-5" style="font-size: large">
         <div class="container-md mt-5 pb-5">
-            <div >
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="tab-content" id="tabContent">
-                            <div class="tab-pane fade show active" id="laboratory" role="tabpanel"
-                                 aria-labelledby="laboratory-tab" tabindex="0">
-                                <h2 class="fw-bold pb-3 text-dark">Tentang Kami</h2>
-                                <p>medical record adalah berkas yang memuat catatan dan dokumen tentang pasien.
-                                    Ini mencakup identitas, pemeriksaan, pengobatan, tindakan medis lain di sarana
-                                    pelayanan kesehatan untuk rawat jalan dan rawat inap baik dikelola pemerintah maupun
-                                    swasta. </p>
-                            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="tab-content" id="tabContent">
+                        <div class="tab-pane fade show active" id="laboratory" role="tabpanel"
+                             aria-labelledby="laboratory-tab" tabindex="0">
+                            <h2 class="fw-bold pb-3 text-dark">Tentang Kami</h2>
+                            <p>medical record adalah berkas yang memuat catatan dan dokumen tentang pasien.
+                                Ini mencakup identitas, pemeriksaan, pengobatan, tindakan medis lain di sarana
+                                pelayanan kesehatan untuk rawat jalan dan rawat inap baik dikelola pemerintah maupun
+                                swasta. </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/images/team-item.jpg" alt="Medical Record" style="width: 70%"
-                             class="img-fluid rounded-custom">
-                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                    <img src="assets/images/team-item.jpg" alt="Medical Record" style="width: 70%"
+                         class="img-fluid rounded-custom">
                 </div>
             </div>
         </div>
 
-        <div class="container-md mt-5">
-            <div >
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/images/team-item.jpg" alt="Medical Record" style="width: 70%"
-                             class="img-fluid rounded-custom">
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="tab-content" id="tabContent">
-                            <div class="tab-pane fade show active" id="laboratory" role="tabpanel"
-                                 aria-labelledby="laboratory-tab" tabindex="0">
-                                <h2 class="fw-bold pb-2 text-dark">Visi</h2>
-                                <p>medical record adalah berkas yang memuat catatan dan dokumen tentang pasien.
-                                    Ini mencakup identitas, pemeriksaan, pengobatan, tindakan medis lain di sarana
-                                    pelayanan kesehatan untuk rawat jalan dan rawat inap baik dikelola pemerintah maupun
-                                    swasta. </p>
-                            </div>
-                            <br>
-                            <div class="tab-pane fade show active" id="laboratory" role="tabpanel"
-                                 aria-labelledby="laboratory-tab" tabindex="0">
-                                <h2 class="fw-bold pb-2 text-dark">Misi</h2>
-                                <p>medical record adalah berkas yang memuat catatan dan dokumen tentang pasien.
-                                    Ini mencakup identitas, pemeriksaan, pengobatan, tindakan medis lain di sarana
-                                    pelayanan kesehatan untuk rawat jalan dan rawat inap baik dikelola pemerintah maupun
-                                    swasta. </p>
-                            </div>
-                        </div>
-                    </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <h2 class="fw-bold pb-2 text-dark">Visi</h2>
+                    <p>medical record adalah berkas yang memuat catatan dan dokumen tentang pasien.
+                        Ini mencakup identitas, pemeriksaan, pengobatan, tindakan medis lain di sarana
+                        pelayanan kesehatan untuk rawat jalan dan rawat inap baik dikelola pemerintah maupun
+                        swasta. </p>
+                </div>
+                <div class="col-md">
+                    <h2 class="fw-bold pb-2 text-dark">Misi</h2>
+                    <p>medical record adalah berkas yang memuat catatan dan dokumen tentang pasien.
+                        Ini mencakup identitas, pemeriksaan, pengobatan, tindakan medis lain di sarana
+                        pelayanan kesehatan untuk rawat jalan dan rawat inap baik dikelola pemerintah maupun
+                        swasta. </p>
                 </div>
             </div>
         </div>
     </section>
+
 
     {{--Modul--}}
     <section id="modul" class="overflow-hidden py-5" style="font-size: large">
@@ -298,14 +286,16 @@
                             <img src="{{asset('assets/images/post-item1.jpg')}}" alt="banner" class="img-fluid" style="height: 200px; width: 100%;">
                         </div>
                         <div class="card-icon bg-white text-primary shadow">
-                            <i class="bi bi-file-earmark-check"></i>
+                            <i class="bi bi-phone"></i>
                         </div>
                         <div class="card-body text-center p-4">
                             <h4 class="card-title fw-bold">V-CLAIM</h4>
-                            <p class="card-text text-muted mb-4">Verifikasi dan klaim pasien BPJS secara digital untuk mempercepat proses administrasi dan pelayanan.</p>
+                            <p class="card-text text-muted mb-4">Akses layanan JKN melalui aplikasi mobile untuk kemudahan pasien.</p>
                             <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">Pelajari Lebih Lanjut</a>
+                        </div>
                     </div>
                 </div>
+
                 <!-- M-JKN -->
                 <div class="col-md-6 col-lg-4">
                     <div class="card feature-card shadow rounded-3">
@@ -314,10 +304,14 @@
                         </div>
                         <div class="card-icon bg-white text-primary shadow">
                             <i class="bi bi-phone"></i>
+                        </div>
                         <div class="card-body text-center p-4">
                             <h4 class="card-title fw-bold">M-JKN</h4>
                             <p class="card-text text-muted mb-4">Akses layanan JKN melalui aplikasi mobile untuk kemudahan pasien.</p>
                             <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+                </div>
                 <!-- APLICARES -->
                 <div class="col-md-6 col-lg-4">
                     <div class="card feature-card shadow rounded-3">
@@ -332,6 +326,7 @@
                             <p class="card-text text-muted mb-4">Sistem reservasi online untuk memudahkan pasien membuat janji temu.</p>
                             <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">Pelajari Lebih Lanjut</a>
                         </div>
+                    </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4 offset-lg-2">
@@ -346,6 +341,8 @@
                             <h4 class="card-title fw-bold">I-CARE</h4>
                             <p class="card-text text-muted mb-4">Layanan informasi dan bantuan pasien secara real-time.</p>
                             <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
                 </div>
                 <!-- Rekam Medis Elektronik (RME) -->
                 <div class="col-md-6 col-lg-4">
@@ -361,12 +358,20 @@
                             <p class="card-text text-muted mb-4">Sistem rekam medis digital untuk mengelola data pasien secara terintegrasi.</p>
                             <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">Pelajari Lebih Lanjut</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     {{-- Fitur Lainnya --}}
     <section id="umum" class="py-5 overflow-hidden">
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 text-center">
                     <h2 class="section-heading fw-bold text-primary">FITUR LAINNYA</h2>
                     <p class="text-muted pb-3">Berbagai fitur pendukung untuk meningkatkan efisiensi dan kualitas layanan</p>
+                </div>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 offset-lg-2">
@@ -431,8 +436,9 @@
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
     </section>
+
     <section id="contact" class="padding-large mb-0">
         <div class="container">
             <div class="row">
@@ -441,26 +447,6 @@
                     <p class="text-muted mt-3">Isi formulir di bawah ini untuk menjadwalkan janji temu dengan dokter Anda.</p>
                 </div>
                 <form class="contact-form d-flex flex-wrap gx-3">
-                    <!-- Pilih Poli/Klinik -->
-                    <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
-                        <select class="form-select focus-transparent border border-radius-10 ps-4" aria-invalid="false" name="poli">
-                            <option value="Select Your Department">Pilih Poli/Klinik</option>
-                            <option value="Poli Umum">Poli Umum</option>
-                            <option value="Poli Gigi">Poli Gigi</option>
-                            <option value="Poli Anak">Poli Anak</option>
-                            <option value="Poli Kandungan">Poli Kandungan</option>
-                            <option value="Poli Bedah">Poli Bedah</option>
-                        </select>
-                    </div>
-                    <!-- Pilih Dokter -->
-                    <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
-                        <select class="form-select focus-transparent border ps-4 border-radius-10" aria-invalid="false" name="doctor">
-                            <option value="Select Your Doctor">Pilih Dokter</option>
-                            <option value="Dr. Ahmad Budiman">Dr. Ahmad Budiman</option>
-                            <option value="Dr. Siti Rahayu">Dr. Siti Rahayu</option>
-                            <option value="Dr. Rudi Hermawan">Dr. Rudi Hermawan</option>
-                        </select>
-                    </div>
                     <!-- Nama Lengkap -->
                     <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
                         <input type="text" name="name" placeholder="Nama Lengkap" class="form-control border ps-4 border-radius-10">
@@ -471,15 +457,11 @@
                     </div>
                     <!-- Tanggal Janji Temu -->
                     <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
-                        <div class="input-group date" id="datepicker">
-                            <input type="date" name="date" class="form-control bg-transparent ps-4 border border-radius-10">
-                        </div>
+                        <input type="date" name="date" class="form-control bg-transparent ps-4 border border-radius-10">
                     </div>
                     <!-- Waktu Janji Temu -->
                     <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
-                        <div class="input-group time" id="timepicker">
                             <input type="time" name="time" class="form-control bg-transparent ps-4 border border-radius-10">
-                        </div>
                     </div>
                     <!-- Tombol Submit -->
                     <div class="col-12 text-center mt-4">
@@ -490,57 +472,57 @@
         </div>
     </section>
 
-                        <!-- Modal Contact -->
-                        <div class="modal fade" id="modalcontact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Konfirmasi Jadwal Temu</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>Selamat Anda telah berhasil menjadwalkan janji temu dengan dokter.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                                        <button type="button" class="btn btn-primary">Lihat Jadwal</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <!-- Modal Contact -->
+    <div class="modal fade" id="modalcontact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Konfirmasi Jadwal Temu</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Selamat Anda telah berhasil menjadwalkan janji temu dengan dokter.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <button type="button" class="btn btn-primary">Lihat Jadwal</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                        <!-- Modal Fitur Unggulan-->
-                        <div class="modal fade" id="modalunggulan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Informasi Lebih Lanjut</h1>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>Fitur ini merupakan layanan digital terdepan yang disediakan untuk kenyamanan pasien dan efisiensi pelayanan.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <!-- Modal Fitur Unggulan-->
+    <div class="modal fade" id="modalunggulan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Informasi Lebih Lanjut</h1>
+                </div>
+                <div class="modal-body">
+                    <p>Fitur ini merupakan layanan digital terdepan yang disediakan untuk kenyamanan pasien dan efisiensi pelayanan.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                        <!-- Modal Fitur Lainnya-->
-                        <div class="modal fade" id="modalumum" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Informasi Lebih Lanjut</h1>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>Fitur ini merupakan layanan digital terdepan yang disediakan untuk kenyamanan pasien dan efisiensi pelayanan.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <!-- Modal Fitur Lainnya-->
+    <div class="modal fade" id="modalumum" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Informasi Lebih Lanjut</h1>
+                </div>
+                <div class="modal-body">
+                    <p>Fitur ini merupakan layanan digital terdepan yang disediakan untuk kenyamanan pasien dan efisiensi pelayanan.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 @endsection

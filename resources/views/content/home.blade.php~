@@ -23,6 +23,51 @@
         </div>
     </section>
 
+    {{--About--}}
+    <section id="tentang-kami" class="overflow-hidden py-5" style="font-size: large">
+        <div class="container-md mt-5 pb-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="tab-content" id="tabContent">
+                        <div class="tab-pane fade show active" id="laboratory" role="tabpanel"
+                             aria-labelledby="laboratory-tab" tabindex="0">
+                            <h2 class="fw-bold pb-3 text-dark">Tentang Kami</h2>
+                            <p>medical record adalah berkas yang memuat catatan dan dokumen tentang pasien.
+                                Ini mencakup identitas, pemeriksaan, pengobatan, tindakan medis lain di sarana
+                                pelayanan kesehatan untuk rawat jalan dan rawat inap baik dikelola pemerintah maupun
+                                swasta. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                    <img src="assets/images/team-item.jpg" alt="Medical Record" style="width: 70%"
+                         class="img-fluid rounded-custom">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="fw-bold pb-2 text-dark">Visi</h2>
+                    <p>medical record adalah berkas yang memuat catatan dan dokumen tentang pasien.
+                        Ini mencakup identitas, pemeriksaan, pengobatan, tindakan medis lain di sarana
+                        pelayanan kesehatan untuk rawat jalan dan rawat inap baik dikelola pemerintah maupun
+                        swasta. </p>
+                </div>
+                <div class="col">
+                    <h2 class="fw-bold pb-2 text-dark">Misi</h2>
+                    <p>medical record adalah berkas yang memuat catatan dan dokumen tentang pasien.
+                        Ini mencakup identitas, pemeriksaan, pengobatan, tindakan medis lain di sarana
+                        pelayanan kesehatan untuk rawat jalan dan rawat inap baik dikelola pemerintah maupun
+                        swasta. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     {{--Modul--}}
     <section id="modul" class="overflow-hidden py-5" style="font-size: large">
         <div class="container-md mt-4">
@@ -238,18 +283,19 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card feature-card shadow rounded-3">
                         <div class="card-img-top text-white" style="background-color: #1cbccf">
-                            <img src="{{asset('assets/images/2025.png')}}" alt="banner" class="img-fluid" style="height: 200px; width: 100%;">
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="banner" class="img-fluid" style="height: 200px; width: 100%;">
                         </div>
                         <div class="card-icon bg-white text-primary shadow">
-                            <i class="bi bi-file-earmark-check"></i>
+                            <i class="bi bi-phone"></i>
                         </div>
                         <div class="card-body text-center p-4">
                             <h4 class="card-title fw-bold">V-CLAIM</h4>
-                            <p class="card-text text-muted mb-4">Verifikasi dan klaim pasien BPJS secara digital untuk mempercepat proses administrasi dan pelayanan.</p>
+                            <p class="card-text text-muted mb-4">Akses layanan JKN melalui aplikasi mobile untuk kemudahan pasien.</p>
                             <a href="#" class="btn btn-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">Pelajari Lebih Lanjut</a>
                         </div>
                     </div>
                 </div>
+
                 <!-- M-JKN -->
                 <div class="col-md-6 col-lg-4">
                     <div class="card feature-card shadow rounded-3">
@@ -401,26 +447,6 @@
                     <p class="text-muted mt-3">Isi formulir di bawah ini untuk menjadwalkan janji temu dengan dokter Anda.</p>
                 </div>
                 <form class="contact-form d-flex flex-wrap gx-3">
-                    <!-- Pilih Poli/Klinik -->
-                    <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
-                        <select class="form-select focus-transparent border border-radius-10 ps-4" aria-invalid="false" name="poli">
-                            <option value="Select Your Department">Pilih Poli/Klinik</option>
-                            <option value="Poli Umum">Poli Umum</option>
-                            <option value="Poli Gigi">Poli Gigi</option>
-                            <option value="Poli Anak">Poli Anak</option>
-                            <option value="Poli Kandungan">Poli Kandungan</option>
-                            <option value="Poli Bedah">Poli Bedah</option>
-                        </select>
-                    </div>
-                    <!-- Pilih Dokter -->
-                    <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
-                        <select class="form-select focus-transparent border ps-4 border-radius-10" aria-invalid="false" name="doctor">
-                            <option value="Select Your Doctor">Pilih Dokter</option>
-                            <option value="Dr. Ahmad Budiman">Dr. Ahmad Budiman</option>
-                            <option value="Dr. Siti Rahayu">Dr. Siti Rahayu</option>
-                            <option value="Dr. Rudi Hermawan">Dr. Rudi Hermawan</option>
-                        </select>
-                    </div>
                     <!-- Nama Lengkap -->
                     <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
                         <input type="text" name="name" placeholder="Nama Lengkap" class="form-control border ps-4 border-radius-10">
@@ -431,15 +457,11 @@
                     </div>
                     <!-- Tanggal Janji Temu -->
                     <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
-                        <div class="input-group date" id="datepicker">
-                            <input type="date" name="date" class="form-control bg-transparent ps-4 border border-radius-10">
-                        </div>
+                        <input type="date" name="date" class="form-control bg-transparent ps-4 border border-radius-10">
                     </div>
                     <!-- Waktu Janji Temu -->
                     <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
-                        <div class="input-group time" id="timepicker">
                             <input type="time" name="time" class="form-control bg-transparent ps-4 border border-radius-10">
-                        </div>
                     </div>
                     <!-- Tombol Submit -->
                     <div class="col-12 text-center mt-4">
