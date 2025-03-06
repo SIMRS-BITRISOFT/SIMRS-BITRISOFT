@@ -11,6 +11,9 @@
     <meta name="author" content="">
     <meta name="keywords" content="">
     <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('style.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
@@ -128,6 +131,44 @@
 
         .rounded-custom {
             border-radius: 30px;
+        }
+
+        .swiper {
+            width: 100%;
+            height: auto;
+        }
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*background: #fff;*/
+        }
+
+        .swiper-slide img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+        }
+
+        .mySwiper {
+            padding-bottom: 50px;
+        }
+
+        .swiper-button-next{
+            right: -2px;
+        }
+
+        .swiper-button-prev{
+            left: -2px;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            color: #1fbbd0;
+            padding: 10px;
+            --swiper-navigation-size: 40px;
         }
 
     </style>
@@ -316,6 +357,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Bootstrap 5.1.3 JS Bundle with Popper -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <script>
     // Inisialisasi collapse Bootstrap
     var myCollapse = new bootstrap.Collapse(document.getElementById('navbarNav'), {
@@ -329,6 +373,21 @@
                 myCollapse.hide();
             }
         });
+    });
+</script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        lazy: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
     });
 </script>
 </body>

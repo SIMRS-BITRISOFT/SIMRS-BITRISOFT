@@ -125,9 +125,25 @@
                             <p>Sampling is the process of collecting a portion of an environmental medium as representative of the
                                 locally remaining medium. The collected portion of the medium is then analyzed to determine the
                                 radionuclide concentration.</p>
-                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
-                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
-                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                            <div class="align-text-bottom">
+                                <a href="departments.html" class="btn btn-primary btn-pill mt-4">Learn More</a>
+                            </div>
+                            <div  class="swiper mySwiper mt-4">
+                                <div class="swiper-wrapper align-items-center">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/banner-image.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
                         </div>
                         <div class="tab-pane fade position-relative" id="rawat-jalan" role="tabpanel"
                              aria-labelledby="rawat-jalan-tab" tabindex="0">
@@ -137,9 +153,25 @@
                                 tincidunt ut vitae elit risus.</p>
                             <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
                                 Vel non viverra ligula odio ornare turpis mauris.</p>
-                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
-                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
-                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                            <div class="align-text-bottom">
+                                <a href="departments.html" class="btn btn-primary btn-pill mt-4">Learn More</a>
+                            </div>
+                            <div  class="swiper mySwiper mt-4">
+                                <div class="swiper-wrapper align-items-center">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/banner-image.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
                         </div>
                         <div class="tab-pane fade position-relative" id="rawat-inap" role="tabpanel"
                              aria-labelledby="rawat-inap-tab" tabindex="0">
@@ -149,9 +181,25 @@
                                 tincidunt ut vitae elit risus.</p>
                             <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
                                 Vel non viverra ligula odio ornare turpis mauris.</p>
-                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
-                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
-                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                            <div class="align-text-bottom">
+                                <a href="departments.html" class="btn btn-primary btn-pill mt-4">Learn More</a>
+                            </div>
+                            <div  class="swiper mySwiper mt-4">
+                                <div class="swiper-wrapper align-items-center">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/banner-image.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
                         </div>
                         <div class="tab-pane fade position-relative" id="laboratorium" role="tabpanel" aria-labelledby="laboratorium-tab"
                              tabindex="0">
@@ -161,9 +209,25 @@
                                 tincidunt ut vitae elit risus.</p>
                             <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
                                 Vel non viverra ligula odio ornare turpis mauris.</p>
-                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
-                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
-                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                            <div class="align-text-bottom">
+                                <a href="departments.html" class="btn btn-primary btn-pill mt-4">Learn More</a>
+                            </div>
+                            <div  class="swiper mySwiper mt-4">
+                                <div class="swiper-wrapper align-items-center">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/banner-image.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
                         </div>
                         <div class="tab-pane fade position-relative" id="radiologi" role="tabpanel"
                              aria-labelledby="radiologi-tab" tabindex="0">
@@ -173,9 +237,25 @@
                                 tincidunt ut vitae elit risus.</p>
                             <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
                                 Vel non viverra ligula odio ornare turpis mauris.</p>
-                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
-                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
-                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                            <div class="align-text-bottom">
+                                <a href="departments.html" class="btn btn-primary btn-pill mt-4">Learn More</a>
+                            </div>
+                            <div  class="swiper mySwiper mt-4">
+                                <div class="swiper-wrapper align-items-center">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/banner-image.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
                         </div>
                         <div class="tab-pane fade position-relative" id="farmasi" role="tabpanel" aria-labelledby="farmasi-tab"
                              tabindex="0">
@@ -185,9 +265,25 @@
                                 tincidunt ut vitae elit risus.</p>
                             <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
                                 Vel non viverra ligula odio ornare turpis mauris.</p>
-                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
-                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
-                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                            <div class="align-text-bottom">
+                                <a href="departments.html" class="btn btn-primary btn-pill mt-4">Learn More</a>
+                            </div>
+                            <div  class="swiper mySwiper mt-4">
+                                <div class="swiper-wrapper align-items-center">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/banner-image.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
                         </div>
                         <div class="tab-pane fade position-relative" id="keuangan" role="tabpanel" aria-labelledby="keuangan-tab"
                              tabindex="0">
@@ -197,9 +293,25 @@
                                 tincidunt ut vitae elit risus.</p>
                             <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
                                 Vel non viverra ligula odio ornare turpis mauris.</p>
-                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
-                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
-                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                            <div class="align-text-bottom">
+                                <a href="departments.html" class="btn btn-primary btn-pill mt-4">Learn More</a>
+                            </div>
+                            <div  class="swiper mySwiper mt-4">
+                                <div class="swiper-wrapper align-items-center">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/banner-image.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
                         </div>
                         <div class="tab-pane fade position-relative" id="kasir" role="tabpanel" aria-labelledby="kasir-tab"
                              tabindex="0">
@@ -209,9 +321,25 @@
                                 tincidunt ut vitae elit risus.</p>
                             <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
                                 Vel non viverra ligula odio ornare turpis mauris.</p>
-                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
-                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
-                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                            <div class="align-text-bottom">
+                                <a href="departments.html" class="btn btn-primary btn-pill mt-4">Learn More</a>
+                            </div>
+                            <div  class="swiper mySwiper mt-4">
+                                <div class="swiper-wrapper align-items-center">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/banner-image.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
                         </div>
                         <div class="tab-pane fade position-relative" id="manajemen" role="tabpanel" aria-labelledby="manajemen-tab"
                              tabindex="0">
@@ -221,9 +349,25 @@
                                 tincidunt ut vitae elit risus.</p>
                             <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
                                 Vel non viverra ligula odio ornare turpis mauris.</p>
-                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
-                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
-                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                            <div class="align-text-bottom">
+                                <a href="departments.html" class="btn btn-primary btn-pill mt-4">Learn More</a>
+                            </div>
+                            <div  class="swiper mySwiper mt-4">
+                                <div class="swiper-wrapper align-items-center">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/banner-image.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
                         </div>
                         <div class="tab-pane fade position-relative" id="gizi" role="tabpanel" aria-labelledby="gizi-tab"
                              tabindex="0">
@@ -233,9 +377,25 @@
                                 tincidunt ut vitae elit risus.</p>
                             <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
                                 Vel non viverra ligula odio ornare turpis mauris.</p>
-                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
-                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
-                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                            <div class="align-text-bottom">
+                                <a href="departments.html" class="btn btn-primary btn-pill mt-4">Learn More</a>
+                            </div>
+                            <div  class="swiper mySwiper mt-4">
+                                <div class="swiper-wrapper align-items-center">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/banner-image.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
                         </div>
                         <div class="tab-pane fade position-relative" id="coding" role="tabpanel" aria-labelledby="coding-tab"
                              tabindex="0">
@@ -245,9 +405,25 @@
                                 tincidunt ut vitae elit risus.</p>
                             <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
                                 Vel non viverra ligula odio ornare turpis mauris.</p>
-                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
-                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
-                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                            <div class="align-text-bottom">
+                                <a href="departments.html" class="btn btn-primary btn-pill mt-4">Learn More</a>
+                            </div>
+                            <div  class="swiper mySwiper mt-4">
+                                <div class="swiper-wrapper align-items-center">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/banner-image.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
                         </div>
                         <div class="tab-pane fade position-relative" id="laporan" role="tabpanel" aria-labelledby="laporan-tab"
                              tabindex="0">
@@ -257,9 +433,25 @@
                                 tincidunt ut vitae elit risus.</p>
                             <p> Tempor egestas condimentum et ac rutrum dui, odio. Non viverra ligula odio ornare turpis mauris. Dio a
                                 Vel non viverra ligula odio ornare turpis mauris.</p>
-                            <p><a href="#" class="text-primary pe-3">Neurocritical Care</a><a href="#" class="text-primary pe-3">Neuro
-                                    Oncology</a><a href="#" class="text-primary pe-3">Geriatric Neurology</a></p>
-                            <a href="departments.html" class="btn btn-medium btn-primary btn-pill mt-4">Learn More</a>
+                            <div class="align-text-bottom">
+                                <a href="departments.html" class="btn btn-primary btn-pill mt-4">Learn More</a>
+                            </div>
+                            <div  class="swiper mySwiper mt-4">
+                                <div class="swiper-wrapper align-items-center">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/banner-image.jpg" loading="lazy" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/team-item.jpg" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
                         </div>
 
                     </div>
