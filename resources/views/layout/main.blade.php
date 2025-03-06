@@ -279,19 +279,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#tentang-kami">TENTANG KAMI</a>
+                        <a class="nav-link" href="{{route('home')}}#tentang-kami">TENTANG KAMI</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#modul">MODUL</a>
+                        <a class="nav-link" href="{{route('home')}}#modul">MODUL</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#unggulan">FITUR UNGGULAN</a>
+                        <a class="nav-link" href="{{route('home')}}#unggulan">FITUR UNGGULAN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#umum">FITUR LAINNYA</a>
+                        <a class="nav-link" href="{{route('home')}}#umum">FITUR LAINNYA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">CONTACT</a>
+                        <a class="nav-link" href="{{route('home')}}#contact">CONTACT</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProduk" role="button"
@@ -299,9 +299,9 @@
                             PRODUK LAIN
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownProduk">
-                            <li><a class="dropdown-item" href="{{ route('aplikasi-hrd') }}">Aplikasi HRD</a></li>
-                            <li><a class="dropdown-item" href="#aplikasi-absen">Aplikasi Absen (PC & Mobile)</a></li>
-                            <li><a class="dropdown-item" href="#aplikasi-satu-sehat">Aplikasi Satu Sehat</a></li>
+                            <li><a class="dropdown-item" href="{{ route('aplikasi-hrd') }}#hrd">Aplikasi HRD</a></li>
+                            <li><a class="dropdown-item" href="{{route('aplikasi-absen')}}#absen">Aplikasi Absen (PC & Mobile)</a></li>
+                            <li><a class="dropdown-item" href="{{route('aplikasi-satu-sehat')}}#satusehat">Aplikasi Satu Sehat</a></li>
                         </ul>
                     </li>
                 </ul>

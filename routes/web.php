@@ -34,13 +34,14 @@ Route::get('/modul', function () {
 })->name('modul');
 
 // Produk Lain
-Route::get('/produk-lain', function () {
-    return view('content.produk-lain');
-})->name('produk-lain');
+Route::get('/aplikasi-hrd', function () {
+    return view('content.aplikasi');
+})->name('aplikasi-hrd');
 
-Route::prefix('produk-lain')->group(function () {
-    Route::get('/aplikasi-hrd', function () {
-        return view('content.produk-lain.aplikasi-hrd');
-    })->name('aplikasi-hrd');
-});
+Route::get('/aplikasi-absen', function () {
+    return view('content.aplikasi');
+})->name('aplikasi-absen');
 
+Route::get('/aplikasi-satu-sehat', function () {
+    return view('content.aplikasi');
+})->name('aplikasi-satu-sehat');
