@@ -282,7 +282,7 @@
                         <a class="nav-link" href="{{route('home')}}#tentang-kami">TENTANG KAMI</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#modul" id="navbarDropdownModul" role="button"
+                        <a class="nav-link dropdown-toggle" href="{{ route('modul') }}" id="navbarDropdownModul" role="button"
                            data-bs-toggle="dropdown" aria-expanded="false" onclick="handleModulClick(event)">
                             MODUL
                         </a>
@@ -296,9 +296,9 @@
                             <li><a class="dropdown-item" href="#modul-kasir">Keuangan</a></li>
                             <li><a class="dropdown-item" href="#modul-akuntansi">Kasir</a></li>
                             <li><a class="dropdown-item" href="#modul-kasir">Manajemen</a></li>
-                            <li><a class="dropdown-item" href="#modul-akuntansi">Gizi</a></li>
-                            <li><a class="dropdown-item" href="#modul-kasir">Coding</a></li>
-                            <li><a class="dropdown-item" href="#modul-akuntansi">Laporan</a></li>
+                            <li><a class="dropdown-item" href="{{ route('modul.gizi') }}">Gizi</a></li>
+                            <li><a class="dropdown-item" href="{{ route('modul.coding') }}">Coding</a></li>
+                            <li><a class="dropdown-item" href="{{ route('modul.laporan') }}">Laporan</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

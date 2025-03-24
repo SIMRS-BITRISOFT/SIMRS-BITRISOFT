@@ -45,3 +45,20 @@ Route::get('/aplikasi-absen', function () {
 Route::get('/aplikasi-satu-sehat', function () {
     return view('content.aplikasi');
 })->name('aplikasi-satu-sehat');
+
+// Route untuk modul
+Route::get('/modul/manajemen', function () {
+    return view('content.modul.manajemen');
+})->name('modul.manajemen');
+
+Route::get('/modul/gizi', function () {
+    return view('content.modul.gizi');
+})->name('modul.gizi');
+
+Route::get('/modul/coding', function () {
+    return view('content.modul.coding');
+})->name('modul.coding');
+
+Route::get('/modul/laporan', function () {
+    return view('content.modul.laporan');
+})->name('modul.laporan');

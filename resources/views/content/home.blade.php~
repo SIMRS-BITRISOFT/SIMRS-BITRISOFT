@@ -461,179 +461,179 @@
     </section>
 
 
+
+    {{-- Fitur Unggulan --}}
     <section id="unggulan" class="py-5 overflow-hidden bg-light">
-    <div class="container" style="padding-top: 5px;">
-        <div class="row justify-content-center mb-5">
-            <div class="col-md-8 text-center">
-                <span class="text-primary fw-bold text-uppercase mb-3 d-block">Fitur Unggulan</span>
-                <h2 class="display-5 fw-bold mb-3">Layanan Digital Terdepan</h2>
-                <p class="lead text-muted">Sistem Informasi Rumah Sakit yang terintegrasi untuk pelayanan kesehatan yang lebih baik</p>
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-8 text-center">
+                    <span class="text-primary fw-bold text-uppercase mb-3 d-block">Fitur Unggulan</span>
+                    <h2 class="display-5 fw-bold mb-3">Layanan Digital Terdepan</h2>
+                    <p class="lead text-muted">Sistem Informasi Rumah Sakit yang terintegrasi untuk pelayanan kesehatan yang lebih baik</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- V-CLAIM -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
+                        <div class="position-relative">
+                            <div class="card-badge position-absolute top-0 start-0 mt-3 ms-3">
+                                <span class="badge bg-primary rounded-pill px-3 py-2">
+                                    <i class="bi bi-shield-check me-1"></i>BPJS
+                                </span>
+                            </div>
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="V-CLAIM" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="feature-icon mb-4">
+                                <span class="icon-wrapper d-inline-flex align-items-center justify-content-center bg-primary text-white rounded-circle" style="width: 48px; height: 48px;">
+                                    <i class="bi bi-clipboard2-pulse fs-4"></i>
+                                </span>
+                            </div>
+                            <h4 class="card-title mb-3">V-CLAIM</h4>
+                            <p class="card-text text-muted">Verifikasi kepesertaan dan klaim BPJS secara real-time dengan integrasi langsung ke sistem BPJS Kesehatan.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Verifikasi Kepesertaan</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Pengajuan Klaim</li>
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Monitoring Status Klaim</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">
+                                Pelajari Lebih Lanjut <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- M-JKN -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
+                        <div class="position-relative">
+                            <div class="card-badge position-absolute top-0 start-0 mt-3 ms-3">
+                                <span class="badge bg-success rounded-pill px-3 py-2">
+                                    <i class="bi bi-phone me-1"></i>Mobile
+                                </span>
+                            </div>
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="M-JKN" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="feature-icon mb-4">
+                                <span class="icon-wrapper d-inline-flex align-items-center justify-content-center bg-success text-white rounded-circle" style="width: 48px; height: 48px;">
+                                    <i class="bi bi-phone-fill fs-4"></i>
+                                </span>
+                            </div>
+                            <h4 class="card-title mb-3">Mobile JKN</h4>
+                            <p class="card-text text-muted">Akses layanan JKN melalui perangkat mobile untuk kemudahan pasien dalam mengakses layanan kesehatan.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Pendaftaran Online</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Cek Antrian</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Riwayat Kunjungan</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-success rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">
+                                Pelajari Lebih Lanjut <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- APLICARES -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
+                        <div class="position-relative">
+                            <div class="card-badge position-absolute top-0 start-0 mt-3 ms-3">
+                                <span class="badge bg-info rounded-pill px-3 py-2">
+                                    <i class="bi bi-hospital me-1"></i>Rawat Inap
+                                </span>
+                            </div>
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="APLICARES" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="feature-icon mb-4">
+                                <span class="icon-wrapper d-inline-flex align-items-center justify-content-center bg-info text-white rounded-circle" style="width: 48px; height: 48px;">
+                                    <i class="bi bi-building fs-4"></i>
+                                </span>
+                            </div>
+                            <h4 class="card-title mb-3">APLICARES</h4>
+                            <p class="card-text text-muted">Aplikasi pencarian dan monitoring ketersediaan tempat tidur rumah sakit secara real-time.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-info me-2"></i>Status Bed</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-info me-2"></i>Informasi Kamar</li>
+                                <li><i class="bi bi-check-circle-fill text-info me-2"></i>Update Otomatis</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-info rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">
+                                Pelajari Lebih Lanjut <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fitur 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
+                        <div class="position-relative">
+                            <div class="card-badge position-absolute top-0 start-0 mt-3 ms-3">
+                                <span class="badge bg-warning rounded-pill px-3 py-2">
+                                    <i class="bi bi-calendar-event me-1"></i>Jadwal
+                                </span>
+                            </div>
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="Jadwal Praktek" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="feature-icon mb-4">
+                                <span class="icon-wrapper d-inline-flex align-items-center justify-content-center bg-warning text-white rounded-circle" style="width: 48px; height: 48px;">
+                                    <i class="bi bi-calendar-check fs-4"></i>
+                                </span>
+                            </div>
+                            <h4 class="card-title mb-3">Jadwal Praktek</h4>
+                            <p class="card-text text-muted">Informasi jadwal praktek dokter untuk memudahkan pasien.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i>Jadwal Harian</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i>Notifikasi</li>
+                                <li><i class="bi bi-check-circle-fill text-warning me-2"></i>Pengingat Janji Temu</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-warning rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">
+                                Pelajari Lebih Lanjut <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fitur 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
+                        <div class="position-relative">
+                            <div class="card-badge position-absolute top-0 start-0 mt-3 ms-3">
+                                <span class="badge bg-danger rounded-pill px-3 py-2">
+                                    <i class="bi bi-exclamation-triangle me-1"></i>Darurat
+                                </span>
+                            </div>
+                            <img src="{{asset('assets/images/post-item1.jpg')}}" alt="Layanan Darurat" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="feature-icon mb-4">
+                                <span class="icon-wrapper d-inline-flex align-items-center justify-content-center bg-danger text-white rounded-circle" style="width: 48px; height: 48px;">
+                                    <i class="bi bi-exclamation-triangle me-1">
+                                </span>
+                            </div>
+                            <h4 class="card-title mb-3">Layanan Darurat</h4>
+                            <p class="card-text text-muted">Layanan darurat 24 jam untuk penanganan cepat dan tepat.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>Respon Cepat</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>Tim Medis Terlatih</li>
+                                <li><i class="bi bi-check-circle-fill text-danger me-2"></i>Fasilitas Lengkap</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-danger rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">
+                                Pelajari Lebih Lanjut <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row g-4 mb-4">
-            <!-- V-CLAIM -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
-                    <div class="position-relative">
-                        <div class="card-badge position-absolute top-0 start-0 mt-3 ms-3">
-                            <span class="badge bg-primary rounded-pill px-3 py-2">
-                                <i class="bi bi-shield-check me-1"></i>BPJS
-                            </span>
-                        </div>
-                        <img src="{{asset('assets/images/post-item1.jpg')}}" alt="V-CLAIM" class="card-img-top" style="height: 200px; object-fit: cover;">
-                    </div>
-                    <div class="card-body p-4">
-                        <div class="feature-icon mb-4 d-flex align-items-center">
-                            <span class="icon-wrapper d-inline-flex align-items-center justify-content-center bg-primary text-white rounded-circle me-3" style="width: 48px; height: 48px;">
-                                <i class="bi bi-clipboard2-pulse fs-4"></i>
-                            </span>
-                            <h4 class="card-title mb-0">V-CLAIM</h4>
-                        </div>
-                        <p class="card-text text-muted">Verifikasi kepesertaan dan klaim BPJS secara real-time dengan integrasi langsung ke sistem BPJS Kesehatan.</p>
-                        <ul class="list-unstyled mb-4">
-                            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Verifikasi Kepesertaan</li>
-                            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Pengajuan Klaim</li>
-                            <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Monitoring Status Klaim</li>
-                        </ul>
-                        <a href="#" class="btn btn-outline-primary rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">
-                            Pelajari Lebih Lanjut <i class="bi bi-arrow-right ms-2"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- M-JKN -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
-                    <div class="position-relative">
-                        <div class="card-badge position-absolute top-0 start-0 mt-3 ms-3">
-                            <span class="badge bg-success rounded-pill px-3 py-2">
-                                <i class="bi bi-phone me-1"></i>Mobile
-                            </span>
-                        </div>
-                        <img src="{{asset('assets/images/post-item1.jpg')}}" alt="M-JKN" class="card-img-top" style="height: 200px; object-fit: cover;">
-                    </div>
-                    <div class="card-body p-4">
-                        <div class="feature-icon mb-4 d-flex align-items-center">
-                            <span class="icon-wrapper d-inline-flex align-items-center justify-content-center bg-success text-white rounded-circle me-3" style="width: 48px; height: 48px;">
-                                <i class="bi bi-phone-fill fs-4"></i>
-                            </span>
-                            <h4 class="card-title mb-0">Mobile JKN</h4>
-                        </div>
-                        <p class="card-text text-muted">Akses layanan JKN melalui perangkat mobile untuk kemudahan pasien dalam mengakses layanan kesehatan.</p>
-                        <ul class="list-unstyled mb-4">
-                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Pendaftaran Online</li>
-                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Cek Antrian</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Riwayat Kunjungan</li>
-                        </ul>
-                        <a href="#" class="btn btn-outline-success rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">
-                            Pelajari Lebih Lanjut <i class="bi bi-arrow-right ms-2"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- APLICARES -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
-                    <div class="position-relative">
-                        <div class="card-badge position-absolute top-0 start-0 mt-3 ms-3">
-                            <span class="badge bg-info rounded-pill px-3 py-2">
-                                <i class="bi bi-hospital me-1"></i>Rawat Inap
-                            </span>
-                        </div>
-                        <img src="{{asset('assets/images/post-item1.jpg')}}" alt="APLICARES" class="card-img-top" style="height: 200px; object-fit: cover;">
-                    </div>
-                    <div class="card-body p-4">
-                        <div class="feature-icon mb-4 d-flex align-items-center">
-                            <span class="icon-wrapper d-inline-flex align-items-center justify-content-center bg-info text-white rounded-circle me-3" style="width: 48px; height: 48px;">
-                                <i class="bi bi-building fs-4"></i>
-                            </span>
-                            <h4 class="card-title mb-0">APLICARES</h4>
-                        </div>
-                        <p class="card-text text-muted">Aplikasi pencarian dan monitoring ketersediaan tempat tidur rumah sakit secara real-time.</p>
-                        <ul class="list-unstyled mb-4">
-                            <li class="mb-2"><i class="bi bi-check-circle-fill text-info me-2"></i>Status Bed</li>
-                            <li class="mb-2"><i class="bi bi-check-circle-fill text-info me-2"></i>Informasi Kamar</li>
-                            <li><i class="bi bi-check-circle-fill text-info me-2"></i>Update Otomatis</li>
-                        </ul>
-                        <a href="#" class="btn btn-outline-info rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">
-                            Pelajari Lebih Lanjut <i class="bi bi-arrow-right ms-2"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-4 justify-content-center">
-            <!-- Fitur 4 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
-                    <div class="position-relative">
-                        <div class="card-badge position-absolute top-0 start-0 mt-3 ms-3">
-                            <span class="badge bg-warning rounded-pill px-3 py-2">
-                                <i class="bi bi-calendar-event me-1"></i>Jadwal
-                            </span>
-                        </div>
-                        <img src="{{asset('assets/images/post-item1.jpg')}}" alt="Jadwal Praktek" class="card-img-top" style="height: 200px; object-fit: cover;">
-                    </div>
-                    <div class="card-body p-4">
-                        <div class="feature-icon mb-4 d-flex align-items-center">
-                            <span class="icon-wrapper d-inline-flex align-items-center justify-content-center bg-warning text-white rounded-circle me-3" style="width: 48px; height: 48px;">
-                                <i class="bi bi-calendar-check fs-4"></i>
-                            </span>
-                            <h4 class="card-title mb-0">Jadwal Praktek</h4>
-                        </div>
-                        <p class="card-text text-muted">Informasi jadwal praktek dokter untuk memudahkan pasien.</p>
-                        <ul class="list-unstyled mb-4">
-                            <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i>Jadwal Harian</li>
-                            <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i>Notifikasi</li>
-                            <li><i class="bi bi-check-circle-fill text-warning me-2"></i>Pengingat Janji Temu</li>
-                        </ul>
-                        <a href="#" class="btn btn-outline-warning rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">
-                            Pelajari Lebih Lanjut <i class="bi bi-arrow-right ms-2"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Fitur 5 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
-                    <div class="position-relative">
-                        <div class="card-badge position-absolute top-0 start-0 mt-3 ms-3">
-                            <span class="badge bg-danger rounded-pill px-3 py-2">
-                                <i class="bi bi-exclamation-triangle me-1"></i>Darurat
-                            </span>
-                        </div>
-                        <img src="{{asset('assets/images/post-item1.jpg')}}" alt="Layanan Darurat" class="card-img-top" style="height: 200px; object-fit: cover;">
-                    </div>
-                    <div class="card-body p-4">
-                        <div class="feature-icon mb-4 d-flex align-items-center">
-                            <span class="icon-wrapper d-inline-flex align-items-center justify-content-center bg-danger text-white rounded-circle me-3" style="width: 48px; height: 48px;">
-                                <i class="bi bi-exclamation-circle"></i>
-                            </span>
-                            <h4 class="card-title mb-0">Layanan Darurat</h4>
-                        </div>
-                        <p class="card-text text-muted">Layanan darurat 24 jam untuk penanganan cepat dan tepat.</p>
-                        <ul class="list-unstyled mb-4">
-                            <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>Respon Cepat</li>
-                            <li class="mb-2"><i class="bi bi-check-circle-fill text-danger me-2"></i>Tim Medis Terlatih</li>
-                            <li><i class="bi bi-check-circle-fill text-danger me-2"></i>Fasilitas Lengkap</li>
-                        </ul>
-                        <a href="#" class="btn btn-outline-danger rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#modalunggulan">
-                            Pelajari Lebih Lanjut <i class="bi bi-arrow-right ms-2"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
     {{-- Fitur Lainnya --}}
     <section id="umum" class="py-5 overflow-hidden">
-        <div class="container" style="padding-top: 5px;">
+        <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-8 text-center">
                     <span class="text-primary fw-bold text-uppercase mb-3 d-block">Fitur Pendukung</span>
@@ -668,7 +668,7 @@
                         <div class="card-body p-4 text-center">
                             <div class="feature-icon mb-4">
                                 <span class="icon-wrapper d-inline-flex align-items-center justify-content-center bg-danger text-white rounded-circle" style="width: 64px; height: 64px;">
-                                    <i class="bi bi-thermometer"></i>
+                                    <i class="bi bi-microscope fs-3"></i>
                                 </span>
                             </div>
                             <h5 class="card-title mb-3">Laboratorium</h5>
