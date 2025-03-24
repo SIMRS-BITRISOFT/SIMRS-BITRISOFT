@@ -50,6 +50,22 @@ Route::get('/medical-recordy', function () {
     return view('content.modul.medical-recordy');
 })->name('medical-recordy');
 
+Route::get('/radiologi', function (){
+    return view('content.modul.radiologi');
+})->name('radiologi');
+
+Route::get('/farmasi', function (){
+    return view('content.modul.farmasi');
+})->name('farmasi');
+
+Route::get('/keuangan', function (){
+    return view('content.modul.keuangan');
+})->name('keuangan');
+
+Route::get('/kasir', function (){
+    return view('content.modul.kasir');
+})->name('kasir');
+
 // Route untuk modul
 Route::get('/modul/manajemen', function () {
     return view('content.modul.manajemen');
@@ -66,6 +82,23 @@ Route::get('/modul/coding', function () {
 Route::get('/modul/laporan', function () {
     return view('content.modul.laporan');
 })->name('modul.laporan');
+
+Route::get('/modul/radiologi', function () {
+    return view('content.modul.radiologi');
+})->name('modul.radiologi');
+
+Route::get('/modul/farmasi', function () {
+    return view('content.modul.farmasi');
+})->name('modul.farmasi');
+
+Route::get('/modul/keuangan', function () {
+    return view('content.modul.keuangan');
+})->name('modul.keuangan');
+
+Route::get('/modul/kasir', function () {
+    return view('content.modul.kasir');
+})->name('modul.kasir');
+
 
 Route::get('/modul/medical-recordy', function () {
     return view('content.modul.medical-recordy');

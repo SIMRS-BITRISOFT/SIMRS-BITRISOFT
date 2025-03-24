@@ -11,11 +11,11 @@
     <meta name="author" content="">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
     <!-- Tambahkan AOS CSS untuk animasi scroll -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('style.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
@@ -118,7 +118,7 @@
             margin-top: 20px;
         }
 
-        .nav-tabs .nav-link{
+        .nav-tabs .nav-link {
             display: block;
             width: 100%;
             text-align: left;
@@ -158,11 +158,11 @@
             padding-bottom: 50px;
         }
 
-        .swiper-button-next{
+        .swiper-button-next {
             right: -2px;
         }
 
-        .swiper-button-prev{
+        .swiper-button-prev {
             left: -2px;
         }
 
@@ -173,6 +173,67 @@
             --swiper-navigation-size: 40px;
         }
 
+
+
+        section {
+            padding: 60px 0;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Gaya untuk judul setiap aplikasi */
+        h3 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        h3:hover {
+            color: #007bff;
+        }
+
+        /* Gaya untuk border dan background konten */
+        .border {
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .border:hover {
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+            transform: scale(1.02);
+        }
+
+        /* Gaya untuk teks dalam konten */
+        p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        /* Gaya tambahan untuk gambar */
+        .image-holder {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-holder:hover {
+            transform: scale(1.05);
+        }
+
+        /* Responsive styling */
+        @media (max-width: 768px) {
+            .row {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .col-md-4, .col-md-8 {
+                width: 100%;
+            }
+        }
 
 
     </style>
@@ -286,7 +347,8 @@
                         <a class="nav-link" href="{{route('home')}}#tentang-kami">TENTANG KAMI</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ route('modul') }}" id="navbarDropdownModul" role="button"
+                        <a class="nav-link dropdown-toggle" href="{{ route('modul') }}" id="navbarDropdownModul"
+                           role="button"
                            data-bs-toggle="dropdown" aria-expanded="false" onclick="handleModulClick(event)">
                             MODUL
                         </a>
@@ -295,10 +357,10 @@
                             <li><a class="dropdown-item" href="{{route('modul.rawat-jalan')}}">Rawat Jalan</a></li>
                             <li><a class="dropdown-item" href="{{route('modul.rawat-inap')}}">Rawat Inap</a></li>
                             <li><a class="dropdown-item" href="{{route('modul.laboratorium')}}">Laboratorium</a></li>
-                            <li><a class="dropdown-item" href="#modul-laboratorium">Radiologi</a></li>
-                            <li><a class="dropdown-item" href="#modul-radiologi">Farmasi</a></li>
-                            <li><a class="dropdown-item" href="#modul-kasir">Keuangan</a></li>
-                            <li><a class="dropdown-item" href="#modul-akuntansi">Kasir</a></li>
+                            <li><a class="dropdown-item" href={{route('modul.radiologi')}}>Radiologi</a></li>
+                            <li><a class="dropdown-item" href={{route('modul.farmasi')}}>Farmasi</a></li>
+                            <li><a class="dropdown-item" href={{route('modul.keuangan')}}>Keuangan</a></li>
+                            <li><a class="dropdown-item" href={{route('modul.kasir')}}>Kasir</a></li>
                             <li><a class="dropdown-item" href="{{ route('modul.manajemen') }}">Manajemen</a></li>
                             <li><a class="dropdown-item" href="{{ route('modul.gizi') }}">Gizi</a></li>
                             <li><a class="dropdown-item" href="{{ route('modul.coding') }}">Coding</a></li>
@@ -321,8 +383,10 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownProduk">
                             <li><a class="dropdown-item" href="{{ route('aplikasi-hrd') }}#hrd">Aplikasi HRD</a></li>
-                            <li><a class="dropdown-item" href="{{route('aplikasi-absen')}}#absen">Aplikasi Absen (PC & Mobile)</a></li>
-                            <li><a class="dropdown-item" href="{{route('aplikasi-satu-sehat')}}#satusehat">Aplikasi Satu Sehat</a></li>
+                            <li><a class="dropdown-item" href="{{route('aplikasi-absen')}}#absen">Aplikasi Absen (PC &
+                                    Mobile)</a></li>
+                            <li><a class="dropdown-item" href="{{route('aplikasi-satu-sehat')}}#satusehat">Aplikasi Satu
+                                    Sehat</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -402,7 +466,7 @@
         event.preventDefault();
 
         // Scroll ke bagian modul
-        document.querySelector('#modul').scrollIntoView({ behavior: 'smooth' });
+        document.querySelector('#modul').scrollIntoView({behavior: 'smooth'});
 
         // Buka dropdown setelah scroll
         setTimeout(() => {
@@ -430,7 +494,7 @@
         event.preventDefault();
 
         // Scroll ke bagian modul
-        document.querySelector('#modul').scrollIntoView({ behavior: 'smooth' });
+        document.querySelector('#modul').scrollIntoView({behavior: 'smooth'});
 
         // Buka dropdown setelah scroll
         setTimeout(() => {
