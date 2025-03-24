@@ -357,10 +357,10 @@
                             <li><a class="dropdown-item" href="{{route('modul.rawat-jalan')}}">Rawat Jalan</a></li>
                             <li><a class="dropdown-item" href="{{route('modul.rawat-inap')}}">Rawat Inap</a></li>
                             <li><a class="dropdown-item" href="{{route('modul.laboratorium')}}">Laboratorium</a></li>
-                            <li><a class="dropdown-item" href={{route('modul.radiologi')}}>Radiologi</a></li>
-                            <li><a class="dropdown-item" href={{route('modul.farmasi')}}>Farmasi</a></li>
-                            <li><a class="dropdown-item" href={{route('modul.keuangan')}}>Keuangan</a></li>
-                            <li><a class="dropdown-item" href={{route('modul.kasir')}}>Kasir</a></li>
+                            <li><a class="dropdown-item" href="{{route('modul.radiologi')}}">Radiologi</a></li>
+                            <li><a class="dropdown-item" href="{{route('modul.farmasi')}}">Farmasi</a></li>
+                            <li><a class="dropdown-item" href="{{route('modul.keuangan')}}">Keuangan</a></li>
+                            <li><a class="dropdown-item" href="{{route('modul.kasir')}}">Kasir</a></li>
                             <li><a class="dropdown-item" href="{{ route('modul.manajemen') }}">Manajemen</a></li>
                             <li><a class="dropdown-item" href="{{ route('modul.gizi') }}">Gizi</a></li>
                             <li><a class="dropdown-item" href="{{ route('modul.coding') }}">Coding</a></li>
