@@ -299,7 +299,7 @@
                             <li><a class="dropdown-item" href="#modul-radiologi">Farmasi</a></li>
                             <li><a class="dropdown-item" href="#modul-kasir">Keuangan</a></li>
                             <li><a class="dropdown-item" href="#modul-akuntansi">Kasir</a></li>
-                            <li><a class="dropdown-item" href="{{ route('modul.manajemen') }}">Manajemen</a></li>
+                            <li><a class="dropdown-item" href="#modul-kasir">Manajemen</a></li>
                             <li><a class="dropdown-item" href="{{ route('modul.gizi') }}">Gizi</a></li>
                             <li><a class="dropdown-item" href="{{ route('modul.coding') }}">Coding</a></li>
                             <li><a class="dropdown-item" href="{{ route('modul.laporan') }}">Laporan</a></li>
