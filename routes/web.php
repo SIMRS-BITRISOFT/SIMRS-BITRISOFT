@@ -46,6 +46,10 @@ Route::get('/aplikasi-satu-sehat', function () {
     return view('content.aplikasi');
 })->name('aplikasi-satu-sehat');
 
+Route::get('/medical-recordy', function () {
+    return view('content.modul.medical-recordy');
+})->name('medical-recordy');
+
 // Route untuk modul
 Route::get('/modul/manajemen', function () {
     return view('content.modul.manajemen');
@@ -62,3 +66,21 @@ Route::get('/modul/coding', function () {
 Route::get('/modul/laporan', function () {
     return view('content.modul.laporan');
 })->name('modul.laporan');
+
+Route::get('/modul/medical-recordy', function () {
+    return view('content.modul.medical-recordy');
+})->name('modul.medical-recordy');
+
+Route::get('/modul/rawat-jalan', function () {
+    return view('content.modul.rawat-jalan');
+})->name('modul.rawat-jalan');
+
+Route::get('/modul/rawat-inap', function () {
+    return view('content.modul.rawat-inap');
+})->name('modul.rawat-inap');
+
+Route::get('/modul/laboratorium', function () {
+    return view('content.modul.laboratorium');
+})->name('modul.laboratorium');
+
+

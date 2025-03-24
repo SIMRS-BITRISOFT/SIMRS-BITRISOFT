@@ -12,6 +12,8 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Tambahkan AOS CSS untuk animasi scroll -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap.min.css')}}">
@@ -171,6 +173,8 @@
             --swiper-navigation-size: 40px;
         }
 
+
+
     </style>
     <!-- script
       ================================================== -->
@@ -287,10 +291,10 @@
                             MODUL
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownModul">
-                            <li><a class="dropdown-item" href="#modul-pendaftaran">Medical Recordy</a></li>
-                            <li><a class="dropdown-item" href="#modul-rawat-jalan">Rawat Jalan</a></li>
-                            <li><a class="dropdown-item" href="#modul-rawat-inap">Rawat Inap</a></li>
-                            <li><a class="dropdown-item" href="#modul-farmasi">Laboratorium</a></li>
+                            <li><a class="dropdown-item" href="{{route('modul.medical-recordy')}}">Medical Recordy</a></li>
+                            <li><a class="dropdown-item" href="{{route('modul.rawat-jalan')}}">Rawat Jalan</a></li>
+                            <li><a class="dropdown-item" href="{{route('modul.rawat-inap')}}">Rawat Inap</a></li>
+                            <li><a class="dropdown-item" href="{{route('modul.laboratorium')}}">Laboratorium</a></li>
                             <li><a class="dropdown-item" href="#modul-laboratorium">Radiologi</a></li>
                             <li><a class="dropdown-item" href="#modul-radiologi">Farmasi</a></li>
                             <li><a class="dropdown-item" href="#modul-kasir">Keuangan</a></li>
@@ -463,6 +467,16 @@
         },
     });
 </script>
+
+<!-- Tambahkan AOS JS untuk animasi scroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,  // Durasi animasi 1 detik
+        once: true       // Animasi hanya muncul sekali
+    });
+</script>
+
 </body>
 
 </html>
